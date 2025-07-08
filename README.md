@@ -43,10 +43,10 @@ services.AddScoped<IDataQueryService, DataQueryService>();
 
 В Program.cs зарегистрировать сервисы и контекст:
 
-```services.AddDbContext<AppDbContext>(options => /* ... */);
+services.AddDbContext<AppDbContext>(options => /* ... */);
 services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 services.AddScoped<IDataQueryService, DataQueryService>();
-services.AddAutoMapper(typeof(AutoMapperProfileGenerator));```
+services.AddAutoMapper(typeof(AutoMapperProfileGenerator));
 
 # Итог
 
