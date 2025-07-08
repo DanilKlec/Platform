@@ -20,6 +20,7 @@
    }
    
 ## ✅ Пример запроса к базе:
+```csharp
 var items = await Query<Product>()
     .Where(p => p.Price > 100)
     .OrderByDescending(p => p.CreatedAt)
