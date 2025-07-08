@@ -1,63 +1,51 @@
-# Универсальное ядро (Core) для C# проектов
-# Цель
-Создать переиспользуемое ядро (Core), которое можно подключать к любому C# проекту (ASP.NET Core MVC, Web API, Console), где при добавлении новой сущности нужно лишь:
+# 🔧 Универсальное ядро (Core) для C# проектов
 
-Добавить Domain-сущность (например, Product)
+Чистая архитектура для ASP.NET Core, WebAPI или Console-приложений — с автоматическим подключением сущностей, DTO, фильтрацией, CRUD и поддержкой LINQ-запросов без ручной настройки.
 
-Опционально: добавить DTO, ListDto, FilterDto
+> 💡 Подходит для любого проекта, где нужно быстро начать без копипасты инфраструктуры.
 
-Создать контроллер (наследник BaseController<,> например, ProductsController)
+## 🚀 Как начать использовать
 
-И всё — не нужно регистрировать DbSet, AutoMapper-профили, репозитории и сервисы вручную.
+1. Добавь сущность `Product` (унаследуй от `Entity`)
+2. Добавь DTO (опционально):  
+   - `ProductDto`  
+   - `ProductListDto`  
+   - `ProductFilterDto`
+3. Создай контроллер:  
+   ```csharp
+   public class ProductsController : BaseController<Product, ProductDto, ProductListDto, ProductFilterDto>
+   {
+       public ProductsController(IRepository<Product> repo, IMapper mapper, IDataQueryService queryService)
+           : base(repo, mapper, queryService) { }
+   }
+   
+## ✅ Пример запроса к базе:
+var items = await Query<Product>()
+    .Where(p => p.Price > 100)
+    .OrderByDescending(p => p.CreatedAt)
+    .ToListAsync();
 
-# Структура проекта
-1. Domain
+##    🔁 Автоматический маппинг
+Тебе не нужно создавать профили вручную:
+Если ты назвал DTO как ProductDto, ProductListDto, ProductFilterDto — маппинг произойдёт сам благодаря рефлексии и AutoMapperProfileGenerator.
 
-2. DTO должны называться по шаблону: ProductDto, ProductListDto, ProductFilterDto и т.д.
+## 🧩 Структура и архитектура:
+Entity: базовые поля, логическое удаление
 
-3. DbContext (AppDbContext)
+DTO: DtoBase, ListDtoBase, FilterDtoBase
 
-4. Автоматический AutoMapper профиль
+Repository: общий репозиторий без необходимости создания под каждую сущность
 
-5. Generic Repository и Service
+BaseController: поддержка фильтрации, сортировки, пагинации
 
-6. Сервис для доступа к IQueryable (глобальный доступ через DI)
-Регистрация:
-services.AddScoped<IDataQueryService, DataQueryService>();
+AutoMapper: автоматическая конфигурация
 
-8. Base Controller с фильтрацией, сортировкой и ListDto
-Как использовать
-Создать сущность Product (унаследовать от Entity)
+LINQ: доступ через Query<T>() глобально или через IDataQueryService
 
-Опционально создать DTO: ProductDto, ProductListDto, ProductFilterDto
+## 📦 Установка и DI:
 
-Создать контроллер:
 
-```public class ProductsController : BaseController<Product, ProductDto, ProductListDto, ProductFilterDto>
-{
-    public ProductsController(IRepository<Product> repo, IMapper mapper, IDataQueryService queryService)
-        : base(repo, mapper, queryService)
-    {
-    }
-}```
-
-В Program.cs зарегистрировать сервисы и контекст:
-
-services.AddDbContext<AppDbContext>(options => /* ... */);
+services.AddDbContext<AppDbContext>(...);
 services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 services.AddScoped<IDataQueryService, DataQueryService>();
 services.AddAutoMapper(typeof(AutoMapperProfileGenerator));
-
-# Итог
-
-Автоматический DbSet для всех Entity (через рефлексию в OnModelCreating)
-
-Автоматический маппинг Entity ↔ DTO по имени без профилей
-
-Базовый репозиторий с LINQ, async-методами и логическим удалением
-
-Удобный сервис IDataQueryService с Query<T>() для любых LINQ запросов
-
-Базовый контроллер с универсальным фильтром, сортировкой и пагинацией
-
-Всё это — легко расширяется и подключается в любом проекте без лишних действий
