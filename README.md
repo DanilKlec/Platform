@@ -50,9 +50,5 @@ LINQ: доступ через Query<T>() глобально или через ID
 
 ## 📦 Установка и DI:
 ```csharp
-services.AddDbContext<AppDbContext>(...);
-services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
-services.AddScoped<IDataQueryService, DataQueryService>();
-services.AddAutoMapper(typeof(AutoMapperProfileGenerator));
 // Регистрируем все сервисы ядра
 builder.Services.AddCoreInfrastructure(builder.Configuration);
