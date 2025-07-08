@@ -20,13 +20,13 @@
    }
    
 ## ✅ Пример запроса к базе:
-```csharp
-var items = await Query<Product>()
+    ```csharp
+    var items = await Query<Product>()
     .Where(p => p.Price > 100)
     .OrderByDescending(p => p.CreatedAt)
     .ToListAsync();
 
-##    🔁 Автоматический маппинг
+##🔁 Автоматический маппинг
 Тебе не нужно создавать профили вручную:
 Если ты назвал DTO как ProductDto, ProductListDto, ProductFilterDto — маппинг произойдёт сам благодаря рефлексии и AutoMapperProfileGenerator.
 
@@ -44,8 +44,7 @@ AutoMapper: автоматическая конфигурация
 LINQ: доступ через Query<T>() глобально или через IDataQueryService
 
 ## 📦 Установка и DI:
-
-
+```csharp
 services.AddDbContext<AppDbContext>(...);
 services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 services.AddScoped<IDataQueryService, DataQueryService>();
