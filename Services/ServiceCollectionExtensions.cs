@@ -4,6 +4,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Platform.Application;
 using Platform.Domain;
 using Platform.Repository;
+using System.Reflection;
 
 namespace Platform.Services;
 
@@ -35,6 +36,13 @@ public static class ServiceCollectionExtensions
             return sp;
         });
 
+        return services;
+    }
+
+    public static IServiceCollection AddCore(this IServiceCollection services)
+    {
+        services.AddScoped(typeof(IRepository<>), typeof(NullRepository<>)); // по умолчанию — без БД
+        services.AddAutoMapper(Assembly.GetExecutingAssembly()); // AutoMapper
         return services;
     }
 
