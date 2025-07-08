@@ -20,10 +20,12 @@
    }
    
 ## ✅ Пример запроса к базе:
+   ```csharp
     var items = await Query<Product>()
-    .Where(p => p.Price > 100)
-    .OrderByDescending(p => p.CreatedAt)
-    .ToListAsync();
+   .Where(p => p.Price > 100)
+   .OrderByDescending(p => p.CreatedAt)
+   .ToListAsync();
+```
 
 ##🔁 Автоматический маппинг
 Тебе не нужно создавать профили вручную:
