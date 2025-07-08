@@ -2,7 +2,7 @@
 using System.Drawing;
 using System.Drawing.Imaging;
 
-namespace ISCore.Common
+namespace Platform.MobileCachRegisterCore.Common
 {
     public static class Utils
     {
@@ -61,7 +61,7 @@ namespace ISCore.Common
                                 // compress image to reduce file size
                                 var encoder = ImageCodecInfo.GetImageEncoders().First(c => c.FormatID == image.RawFormat.Guid);
                                 var parameters = new EncoderParameters(1);
-                                parameters.Param[0] = new EncoderParameter(System.Drawing.Imaging.Encoder.Quality, quality);
+                                parameters.Param[0] = new EncoderParameter(Encoder.Quality, quality);
                                 resizedImage.Save(output, encoder, parameters);
 
                                 imageBytes = output.ToArray();

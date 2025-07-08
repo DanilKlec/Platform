@@ -1,0 +1,2234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+		Microsoft ResX Schema
+
+		Version 1.3
+
+		The primary goals of this format is to allow a simple XML format 
+		that is mostly human readable. The generation and parsing of the 
+		various data types are done through the TypeConverter classes 
+		associated with the data types.
+
+		Example:
+
+		... ado.net/XML headers & schema ...
+		<resheader name="resmimetype">text/microsoft-resx</resheader>
+		<resheader name="version">1.3</resheader>
+		<resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+		<resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+		<data name="Name1">this is my long string</data>
+		<data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+		<data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+			[base64 mime encoded serialized .NET Framework object]
+		</data>
+		<data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+			[base64 mime encoded string representing a byte array form of the .NET Framework object]
+		</data>
+
+		There are any number of "resheader" rows that contain simple 
+		name/value pairs.
+
+		Each data row contains a name, and value. The row also contains a 
+		type or mimetype. Type corresponds to a .NET class that support 
+		text/value conversion through the TypeConverter architecture. 
+		Classes that don't support this are serialized and stored with the 
+		mimetype set.
+
+		The mimetype is used for serialized objects, and tells the 
+		ResXResourceReader how to depersist the object. This is currently not 
+		extensible. For a given mimetype the value must be set accordingly:
+
+		Note - application/x-microsoft.net.object.binary.base64 is the format 
+		that the ResXResourceWriter will generate, however the reader can 
+		read any of the formats listed below.
+
+		mimetype: application/x-microsoft.net.object.binary.base64
+		value   : The object must be serialized with 
+			: System.Serialization.Formatters.Binary.BinaryFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.soap.base64
+		value   : The object must be serialized with 
+			: System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.bytearray.base64
+		value   : The object must be serialized into a byte array 
+			: using a System.ComponentModel.TypeConverter
+			: and then encoded with base64 encoding.
+	-->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="Application" xml:space="preserve">
+    <value>Приложения</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Редактировать</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Язык</value>
+  </data>
+  <data name="ShortDescription" xml:space="preserve">
+    <value>Краткое описание</value>
+  </data>
+  <data name="TermsOfUse" xml:space="preserve">
+    <value>Условия эксплуатации / Правила пользования</value>
+  </data>
+  <data name="Packages" xml:space="preserve">
+    <value>Пакеты</value>
+  </data>
+  <data name="AddPackage" xml:space="preserve">
+    <value>Добавить пакет</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Наименование</value>
+  </data>
+  <data name="MinValue" xml:space="preserve">
+    <value>Мин. значение</value>
+  </data>
+  <data name="MaxValue" xml:space="preserve">
+    <value>Макс. значение</value>
+  </data>
+  <data name="Price" xml:space="preserve">
+    <value>Цена</value>
+  </data>
+  <data name="ValidFrom" xml:space="preserve">
+    <value>Действителен с</value>
+  </data>
+  <data name="ValidTo" xml:space="preserve">
+    <value>Действителен до</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Статус</value>
+  </data>
+  <data name="Company" xml:space="preserve">
+    <value>Компания</value>
+  </data>
+  <data name="AddCompany" xml:space="preserve">
+    <value>Добавить компанию</value>
+  </data>
+  <data name="JuridicalName" xml:space="preserve">
+    <value>Юридическое название</value>
+  </data>
+  <data name="CommercialName" xml:space="preserve">
+    <value>Коммерческое название</value>
+  </data>
+  <data name="IDNO" xml:space="preserve">
+    <value>IDNO</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>Пользователь</value>
+  </data>
+  <data name="AddUser" xml:space="preserve">
+    <value>Добавить пользователя</value>
+  </data>
+  <data name="FirstName" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="LastName" xml:space="preserve">
+    <value>Фамилия</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>Электронная почта</value>
+  </data>
+  <data name="LastAuthorize" xml:space="preserve">
+    <value>Последняя авторизация</value>
+  </data>
+  <data name="PhoneNumber" xml:space="preserve">
+    <value>Номер телефона</value>
+  </data>
+  <data name="Disable" xml:space="preserve">
+    <value>Деактивировать</value>
+  </data>
+  <data name="ResetPassword" xml:space="preserve">
+    <value>Сбросить пароль</value>
+  </data>
+  <data name="Group" xml:space="preserve">
+    <value>Группа</value>
+  </data>
+  <data name="AddGroup" xml:space="preserve">
+    <value>Добавить группу</value>
+  </data>
+  <data name="Administrator" xml:space="preserve">
+    <value>Администратор</value>
+  </data>
+  <data name="Users" xml:space="preserve">
+    <value>Пользователи</value>
+  </data>
+  <data name="NavigationPermissions" xml:space="preserve">
+    <value>Разрешения для навигации</value>
+  </data>
+  <data name="AddNavigation" xml:space="preserve">
+    <value>Добавить навигацию</value>
+  </data>
+  <data name="PermissionState" xml:space="preserve">
+    <value>Состояние разрешения</value>
+  </data>
+  <data name="Templates" xml:space="preserve">
+    <value>Шаблоны</value>
+  </data>
+  <data name="Management" xml:space="preserve">
+    <value>Управление</value>
+  </data>
+  <data name="Server" xml:space="preserve">
+    <value>Сервер</value>
+  </data>
+  <data name="AddServer" xml:space="preserve">
+    <value>Добавить сервер</value>
+  </data>
+  <data name="IP" xml:space="preserve">
+    <value>IP</value>
+  </data>
+  <data name="Port" xml:space="preserve">
+    <value>Порт</value>
+  </data>
+  <data name="Category" xml:space="preserve">
+    <value>Категория</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>Тип</value>
+  </data>
+  <data name="State" xml:space="preserve">
+    <value>Состояние</value>
+  </data>
+  <data name="Database" xml:space="preserve">
+    <value>База данных</value>
+  </data>
+  <data name="Oid" xml:space="preserve">
+    <value>Oid</value>
+  </data>
+  <data name="DBName" xml:space="preserve">
+    <value>Имя БД</value>
+  </data>
+  <data name="CompanyJuridicalName" xml:space="preserve">
+    <value>Юридическое название компании</value>
+  </data>
+  <data name="Product" xml:space="preserve">
+    <value>Продукт</value>
+  </data>
+  <data name="CreateDate" xml:space="preserve">
+    <value>Дата создания</value>
+  </data>
+  <data name="DbSize" xml:space="preserve">
+    <value>Размер БД</value>
+  </data>
+  <data name="Version" xml:space="preserve">
+    <value>Версия</value>
+  </data>
+  <data name="ApplicationServices" xml:space="preserve">
+    <value>Службы приложений</value>
+  </data>
+  <data name="ServerName" xml:space="preserve">
+    <value>Имя сервера</value>
+  </data>
+  <data name="DNS" xml:space="preserve">
+    <value>DNS</value>
+  </data>
+  <data name="MACAdress" xml:space="preserve">
+    <value>MAC-адрес</value>
+  </data>
+  <data name="URI" xml:space="preserve">
+    <value>URI</value>
+  </data>
+  <data name="Update" xml:space="preserve">
+    <value>Обновлено</value>
+  </data>
+  <data name="IsActive" xml:space="preserve">
+    <value>Активен</value>
+  </data>
+  <data name="CloudServices" xml:space="preserve">
+    <value>Облачные сервисы</value>
+  </data>
+  <data name="HostName" xml:space="preserve">
+    <value>Имя хоста</value>
+  </data>
+  <data name="Report" xml:space="preserve">
+    <value>Отчет</value>
+  </data>
+  <data name="Events " xml:space="preserve">
+    <value>События</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Дата</value>
+  </data>
+  <data name="Source" xml:space="preserve">
+    <value>Источник</value>
+  </data>
+  <data name="Domain" xml:space="preserve">
+    <value>Домен</value>
+  </data>
+  <data name="Configuration" xml:space="preserve">
+    <value>Конфигурация</value>
+  </data>
+  <data name="Service" xml:space="preserve">
+    <value>Служба</value>
+  </data>
+  <data name="Map" xml:space="preserve">
+    <value>Карта клиентов</value>
+  </data>
+  <data name="OverdueDebtDays" xml:space="preserve">
+    <value>Дни просроченной задолженности</value>
+  </data>
+  <data name="OverdueDebtSum" xml:space="preserve">
+    <value>Сумма просроченной задолженности</value>
+  </data>
+  <data name="UnpaidDocuments" xml:space="preserve">
+    <value>Неоплаченные документы</value>
+  </data>
+  <data name="Pos" xml:space="preserve">
+    <value>Pos</value>
+  </data>
+  <data name="Entity" xml:space="preserve">
+    <value>Сущность</value>
+  </data>
+  <data name="Parameters" xml:space="preserve">
+    <value>Параметры</value>
+  </data>
+  <data name="MapSettings" xml:space="preserve">
+    <value>Настройки карты</value>
+  </data>
+  <data name="Groups" xml:space="preserve">
+    <value>Группы</value>
+  </data>
+  <data name="GroupSettings" xml:space="preserve">
+    <value>Настройки группы</value>
+  </data>
+  <data name="AddGroupSettings" xml:space="preserve">
+    <value>Добавить настройки группы</value>
+  </data>
+  <data name="Template" xml:space="preserve">
+    <value>Шаблон</value>
+  </data>
+  <data name="SupportCenter" xml:space="preserve">
+    <value>Служба поддержки</value>
+  </data>
+  <data name="BugTracker" xml:space="preserve">
+    <value>Баг трекер</value>
+  </data>
+  <data name="Create" xml:space="preserve">
+    <value>Создать</value>
+  </data>
+  <data name="Subject" xml:space="preserve">
+    <value>Тема</value>
+  </data>
+  <data name="AssignedTo" xml:space="preserve">
+    <value>Назначено</value>
+  </data>
+  <data name="ProductCategory" xml:space="preserve">
+    <value>Категория продукта</value>
+  </data>
+  <data name="ProductModule" xml:space="preserve">
+    <value>Модуль продукта</value>
+  </data>
+  <data name="VerifiedBy" xml:space="preserve">
+    <value>Проверено</value>
+  </data>
+  <data name="RealizedOn" xml:space="preserve">
+    <value>Реализовано в</value>
+  </data>
+  <data name="ResolvedBy" xml:space="preserve">
+    <value>Кем решено</value>
+  </data>
+  <data name="Resolved" xml:space="preserve">
+    <value>Решено</value>
+  </data>
+  <data name="Author" xml:space="preserve">
+    <value>Автор</value>
+  </data>
+  <data name="Responsible" xml:space="preserve">
+    <value>Ответственный</value>
+  </data>
+  <data name="LastDate" xml:space="preserve">
+    <value>Последнее редактирование</value>
+  </data>
+  <data name="VersionNumber" xml:space="preserve">
+    <value>Номер версии</value>
+  </data>
+  <data name="Reproducibility" xml:space="preserve">
+    <value>Воспроизводимость</value>
+  </data>
+  <data name="AddVersion" xml:space="preserve">
+    <value>Добавить версию</value>
+  </data>
+  <data name="Number" xml:space="preserve">
+    <value>Номер</value>
+  </data>
+  <data name="NewFeatures" xml:space="preserve">
+    <value>Новые возможности</value>
+  </data>
+  <data name="ResolvedIssues" xml:space="preserve">
+    <value>Решенные проблемы</value>
+  </data>
+  <data name="Documentation" xml:space="preserve">
+    <value>Документация</value>
+  </data>
+  <data name="AddDocumentation" xml:space="preserve">
+    <value>Добавить документацию</value>
+  </data>
+  <data name="ReleasedOn" xml:space="preserve">
+    <value>Выпущен</value>
+  </data>
+  <data name="VATCode" xml:space="preserve">
+    <value>Код НДС</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>Страна</value>
+  </data>
+  <data name="JuridicalAddress" xml:space="preserve">
+    <value>Юридический адрес</value>
+  </data>
+  <data name="OfficeAddress" xml:space="preserve">
+    <value>Адрес офиса</value>
+  </data>
+  <data name="Bank" xml:space="preserve">
+    <value>Банк</value>
+  </data>
+  <data name="Alias" xml:space="preserve">
+    <value>Псевдоним</value>
+  </data>
+  <data name="AliasESM" xml:space="preserve">
+    <value>Псевдоним ESM</value>
+  </data>
+  <data name="WebSite" xml:space="preserve">
+    <value>Веб-сайт</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="HeaderActivateCompany" xml:space="preserve">
+    <value>Вы хотите активировать компанию</value>
+  </data>
+  <data name="HeaderDeactivateCompany" xml:space="preserve">
+    <value>Вы хотите деактивировать компанию</value>
+  </data>
+  <data name="FileUploaderMessageDragDrop" xml:space="preserve">
+    <value>Перетащите желаемый файл</value>
+  </data>
+  <data name="FileUploaderMessageClickBrowse" xml:space="preserve">
+    <value>…или нажмите, чтобы перейти к файлу.</value>
+  </data>
+  <data name="HeaderActivateUser" xml:space="preserve">
+    <value>Вы хотите активировать пользователя</value>
+  </data>
+  <data name="HeaderDeactivateUser" xml:space="preserve">
+    <value>Вы хотите деактивировать пользователя</value>
+  </data>
+  <data name="HeaderResetPasswordUser" xml:space="preserve">
+    <value>Вы хотите сбросить пароль пользователя</value>
+  </data>
+  <data name="ShortName" xml:space="preserve">
+    <value>Псевдоним</value>
+  </data>
+  <data name="PosType" xml:space="preserve">
+    <value>Тип Pos-а</value>
+  </data>
+  <data name="PosSettingType" xml:space="preserve">
+    <value>Тип настройки Pos-а</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Пароль</value>
+  </data>
+  <data name="OldPassword" xml:space="preserve">
+    <value>Старый пароль</value>
+  </data>
+  <data name="NewPassword" xml:space="preserve">
+    <value>Новый пароль</value>
+  </data>
+  <data name="ConfirmPassword" xml:space="preserve">
+    <value>Подтверждение пароля</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Дальше</value>
+  </data>
+  <data name="ForgotPassword" xml:space="preserve">
+    <value>Забыли пароль?</value>
+  </data>
+  <data name="ResetPasswordHeader" xml:space="preserve">
+    <value>Пожалуйста, введите адрес электронной почты, который использовался при регистрации.</value>
+  </data>
+  <data name="AllRightsReserved" xml:space="preserve">
+    <value>Все права защищены.</value>
+  </data>
+  <data name="Unlock" xml:space="preserve">
+    <value>Разблокировать</value>
+  </data>
+  <data name="LockScreen" xml:space="preserve">
+    <value>Экран блокировки</value>
+  </data>
+  <data name="LockScreenHeader" xml:space="preserve">
+    <value>Введите пароль, чтобы разблокировать экран!</value>
+  </data>
+  <data name="ChangePassword" xml:space="preserve">
+    <value>Изменить пароль</value>
+  </data>
+  <data name="EditProfile" xml:space="preserve">
+    <value>Редактировать профиль</value>
+  </data>
+  <data name="SaveAsDraft" xml:space="preserve">
+    <value>Сохранить как черновик</value>
+  </data>
+  <data name="ParentParagraph" xml:space="preserve">
+    <value>Родительский параграф</value>
+  </data>
+  <data name="DeleteDocumentation" xml:space="preserve">
+    <value>Вы действительно хотите удалить эту документацию? Для подтверждения сначала введите "Наименование" документации : </value>
+  </data>
+  <data name="DisableDocumentation" xml:space="preserve">
+    <value>Вы хотите деактивировать документацию</value>
+  </data>
+  <data name="ActivateDocumentation" xml:space="preserve">
+    <value>Вы хотите активировать документацию</value>
+  </data>
+  <data name="DraftDocumentation" xml:space="preserve">
+    <value>Вы хотите изменить статус документации на черновик?</value>
+  </data>
+  <data name="Draft" xml:space="preserve">
+    <value>Черновик</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="DocumentationDependecies" xml:space="preserve">
+    <value>Имеются следующие зависимости:</value>
+  </data>
+  <data name="CannotDeleteDocumentation" xml:space="preserve">
+    <value>Вы не можете удалить документацию</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="Picture" xml:space="preserve">
+    <value>Изображение</value>
+  </data>
+  <data name="ChooseLanguage" xml:space="preserve">
+    <value>Пожалуйста, выберите язык</value>
+  </data>
+  <data name="LanguageDocumentation" xml:space="preserve">
+    <value>Язык документации</value>
+  </data>
+  <data name="ClientMap" xml:space="preserve">
+    <value>Карта клиента</value>
+  </data>
+  <data name="CloudSettings" xml:space="preserve">
+    <value>Обл. настройки</value>
+  </data>
+  <data name="Catalog" xml:space="preserve">
+    <value>Каталог</value>
+  </data>
+  <data name="Menu" xml:space="preserve">
+    <value>Меню</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="SignOut" xml:space="preserve">
+    <value>Выйти</value>
+  </data>
+  <data name="LockScreenFooter" xml:space="preserve">
+    <value>Не ты? вернись на страницу</value>
+  </data>
+  <data name="SignIn" xml:space="preserve">
+    <value>Авторизация</value>
+  </data>
+  <data name="SessionTimeout" xml:space="preserve">
+    <value>Время сеанса истекло!</value>
+  </data>
+  <data name="DescriptionDocumentation" xml:space="preserve">
+    <value>Описание документации</value>
+  </data>
+  <data name="NothingToDisplay" xml:space="preserve">
+    <value>Нет данных для отображения</value>
+  </data>
+  <data name="Hash" xml:space="preserve">
+    <value>Хеш</value>
+  </data>
+  <data name="BackupUser" xml:space="preserve">
+    <value>Резервный пользователь</value>
+  </data>
+  <data name="BackupPassword" xml:space="preserve">
+    <value>Резервный пароль</value>
+  </data>
+  <data name="Comment" xml:space="preserve">
+    <value>Комментарий</value>
+  </data>
+  <data name="HeaderDeleteDatabase" xml:space="preserve">
+    <value>Вы действительно хотите удалить эту базу данных? Для подтверждения сначала введите "Имя БД" : </value>
+  </data>
+  <data name="ServiceName" xml:space="preserve">
+    <value>Название службы</value>
+  </data>
+  <data name="DatabaseServers" xml:space="preserve">
+    <value>Серверы баз данных</value>
+  </data>
+  <data name="HeaderDeleteService" xml:space="preserve">
+    <value>Вы действительно хотите удалить эту службу? Для подтверждения сначала введите "Название сервера" и "Тип" службы : </value>
+  </data>
+  <data name="HeaderDeleteServer" xml:space="preserve">
+    <value>Вы действительно хотите удалить этот сервер? Для подтверждения сначала введите "Наименование" сервера : </value>
+  </data>
+  <data name="Navigation" xml:space="preserve">
+    <value>Навигация</value>
+  </data>
+  <data name="Message" xml:space="preserve">
+    <value>Сообщение</value>
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>Расположение</value>
+  </data>
+  <data name="Activated" xml:space="preserve">
+    <value>Активировано</value>
+  </data>
+  <data name="Activate" xml:space="preserve">
+    <value>Активировать</value>
+  </data>
+  <data name="Disabled" xml:space="preserve">
+    <value>Деактивировано</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>Детали</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Ошибка</value>
+  </data>
+  <data name="BuildDate" xml:space="preserve">
+    <value>Дата сборки</value>
+  </data>
+  <data name="ReportDate" xml:space="preserve">
+    <value>Дата отчёта</value>
+  </data>
+  <data name="AddTemplate" xml:space="preserve">
+    <value>Добавить шаблон</value>
+  </data>
+  <data name="PointOfSales" xml:space="preserve">
+    <value>Точка продажи</value>
+  </data>
+  <data name="HeaderDeleteErrorTypeMapSetting" xml:space="preserve">
+    <value>Вы не можете удалить эту группу, т.к. она используется в карточке клиента!</value>
+  </data>
+  <data name="HeaderDeleteErrorGroupMapSetting" xml:space="preserve">
+    <value>Вы не может удалить эту настройку, она используется в карте клиента!</value>
+  </data>
+  <data name="HeaderDeleteTypeMapSetting" xml:space="preserve">
+    <value>Вы действительно хотите удалить эту группу? Для подтверждения сначала введите "Наименование" настройки группы : </value>
+  </data>
+  <data name="HeaderDeleteGroupMapSetting" xml:space="preserve">
+    <value>Вы действительно хотите удалить эту настройку группы? Для подтверждения сначала введите "Наименование" настройки группы : </value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>Предупреждение</value>
+  </data>
+  <data name="TemplateIsEmpty" xml:space="preserve">
+    <value>Шаблон пуст!</value>
+  </data>
+  <data name="HeaderDeleteErrorMapItem" xml:space="preserve">
+    <value>Вы не можете удалить эту точку продаж!</value>
+  </data>
+  <data name="FooterDelereErrorMapItem" xml:space="preserve">
+    <value>Точка продажи связана с этими сущностями:</value>
+  </data>
+  <data name="HeaderDeleteMapItem" xml:space="preserve">
+    <value>Вы действительно хотите удалить эту точку продаж? Для подтверждения сначала введите "Наименование" точки продаж : </value>
+  </data>
+  <data name="HeaderDeleteMapEntity" xml:space="preserve">
+    <value>Вы действительно хотите удалить эту сущность? Для подтверждения сначала введите "Наименование" сущности : </value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Описание</value>
+  </data>
+  <data name="TicketCategory" xml:space="preserve">
+    <value>Категория заявки</value>
+  </data>
+  <data name="FileInputMaxLenght" xml:space="preserve">
+    <value>Максимальное количество файлов, уже прикрепленны к заявке: 5 из 5 файлов</value>
+  </data>
+  <data name="FileInputMaxSize" xml:space="preserve">
+    <value>Максимальный размер файла:</value>
+  </data>
+  <data name="FileInputMaxNumberFile" xml:space="preserve">
+    <value>Максимальное количество файлов:</value>
+  </data>
+  <data name="AnswerQuestion" xml:space="preserve">
+    <value>Ответить на вопрос</value>
+  </data>
+  <data name="File" xml:space="preserve">
+    <value>Файл</value>
+  </data>
+  <data name="Files" xml:space="preserve">
+    <value>Файлы</value>
+  </data>
+  <data name="Accept" xml:space="preserve">
+    <value>Принять</value>
+  </data>
+  <data name="Decline" xml:space="preserve">
+    <value>Отклонить</value>
+  </data>
+  <data name="SelectFiles" xml:space="preserve">
+    <value>Выбрать файлы</value>
+  </data>
+  <data name="Reopen" xml:space="preserve">
+    <value>Возобновить</value>
+  </data>
+  <data name="Provider" xml:space="preserve">
+    <value>Провайдер</value>
+  </data>
+  <data name="HTMLFormTemplate" xml:space="preserve">
+    <value>HTML-шаблон формы</value>
+  </data>
+  <data name="CSSFormTemplate" xml:space="preserve">
+    <value>CSS-шаблон формы</value>
+  </data>
+  <data name="DataTemplate" xml:space="preserve">
+    <value>Шаблон данных</value>
+  </data>
+  <data name="HeaderDeletePackage" xml:space="preserve">
+    <value>Вы действительно хотите удалить этот пакет? Для подтверждения сначала введите "Наименование" пакета : </value>
+  </data>
+  <data name="DisablePackage" xml:space="preserve">
+    <value>Вы хотите деактивировать пакет</value>
+  </data>
+  <data name="ActivatePackage" xml:space="preserve">
+    <value>Вы хотите активировать пакет</value>
+  </data>
+  <data name="Client" xml:space="preserve">
+    <value>Клиент</value>
+  </data>
+  <data name="GlobalSettings" xml:space="preserve">
+    <value>Глобальные настройки</value>
+  </data>
+  <data name="FiscalMemorySetting" xml:space="preserve">
+    <value>Настройки фискальной памяти</value>
+  </data>
+  <data name="VatSetting" xml:space="preserve">
+    <value>Настройки НДС</value>
+  </data>
+  <data name="TimeoutWithFiscalMemory" xml:space="preserve">
+    <value>Тайм-аут с фискальной памятью</value>
+  </data>
+  <data name="TimeoutWithoutFiscalMemory" xml:space="preserve">
+    <value>Тайм-аут без фискальной памяти</value>
+  </data>
+  <data name="NameAlreadyUsedValidation" xml:space="preserve">
+    <value>Это имя уже используется</value>
+  </data>
+  <data name="FileBigValidation" xml:space="preserve">
+    <value>Размер файла превышает 1 МБ</value>
+  </data>
+  <data name="EnterDescriptionValidation" xml:space="preserve">
+    <value>Пожалуйста, введите описание...</value>
+  </data>
+  <data name="ContactAdministrator" xml:space="preserve">
+    <value>Свяжитесь с администратором</value>
+  </data>
+  <data name="UserNotFoundOrIncorrenctPasswordValidation" xml:space="preserve">
+    <value>Имя пользователя не найдено или неверный пароль</value>
+  </data>
+  <data name="InternalError" xml:space="preserve">
+    <value>Внутренняя ошибка</value>
+  </data>
+  <data name="UserNotFoundOrIncorrenctEmailValidation" xml:space="preserve">
+    <value>Имя пользователя не найдено или неправильный адрес электронной почты</value>
+  </data>
+  <data name="Saved" xml:space="preserve">
+    <value>Сохранено</value>
+  </data>
+  <data name="ApplicationUpdated" xml:space="preserve">
+    <value>Приложение обновлено</value>
+  </data>
+  <data name="ApplicationPictureUpdated" xml:space="preserve">
+    <value>Изображение приложения обновлено</value>
+  </data>
+  <data name="PackageDeleted" xml:space="preserve">
+    <value>Пакет удален</value>
+  </data>
+  <data name="PackageActivated" xml:space="preserve">
+    <value>Пакет активирован</value>
+  </data>
+  <data name="PackageDisabled" xml:space="preserve">
+    <value>Пакет отключен</value>
+  </data>
+  <data name="PackageIndexUp" xml:space="preserve">
+    <value>Индекс пакета перемещён вверх</value>
+  </data>
+  <data name="PackageIndexDown" xml:space="preserve">
+    <value>Индекс пакета перемещён вниз</value>
+  </data>
+  <data name="NotSaved" xml:space="preserve">
+    <value>Не сохранено</value>
+  </data>
+  <data name="QuantityFilesMoreFive" xml:space="preserve">
+    <value>Количество файлов не может быть больше 5 элементов</value>
+  </data>
+  <data name="Removed" xml:space="preserve">
+    <value>Удалено</value>
+  </data>
+  <data name="DocumentationDraft" xml:space="preserve">
+    <value>Статус документации изменён на черновик</value>
+  </data>
+  <data name="DocumentationActivate" xml:space="preserve">
+    <value>Документация активирована</value>
+  </data>
+  <data name="DocumentationDisable" xml:space="preserve">
+    <value>Документации деактивирована</value>
+  </data>
+  <data name="DocumentationDelete" xml:space="preserve">
+    <value>Документация удалена</value>
+  </data>
+  <data name="SavedAsDraft" xml:space="preserve">
+    <value>Сохранено как черновик</value>
+  </data>
+  <data name="DocumentationNotExist" xml:space="preserve">
+    <value>Документация не существует</value>
+  </data>
+  <data name="DeletedGroup" xml:space="preserve">
+    <value>Группа удалена</value>
+  </data>
+  <data name="UserNotSelected" xml:space="preserve">
+    <value>Пользователь не выбран</value>
+  </data>
+  <data name="DeletedUser" xml:space="preserve">
+    <value>Пользователь удален</value>
+  </data>
+  <data name="NavigationNotSelected" xml:space="preserve">
+    <value>Навигация не выбрана</value>
+  </data>
+  <data name="DeletedNavigation" xml:space="preserve">
+    <value>Навигация удалена</value>
+  </data>
+  <data name="ServerNotDeleted" xml:space="preserve">
+    <value>Сервер не удалён</value>
+  </data>
+  <data name="ServerNotAdded" xml:space="preserve">
+    <value>Сервер не добавлен</value>
+  </data>
+  <data name="DeletedPos" xml:space="preserve">
+    <value>Точка продаж удалена</value>
+  </data>
+  <data name="DeletedEntity" xml:space="preserve">
+    <value>Сущность удалена</value>
+  </data>
+  <data name="DeletedGroupSettings" xml:space="preserve">
+    <value>Удалены настройки группы</value>
+  </data>
+  <data name="TemplateUpdated" xml:space="preserve">
+    <value>Шаблон обновлен</value>
+  </data>
+  <data name="PasswordСhanged" xml:space="preserve">
+    <value>Пароль изменён</value>
+  </data>
+  <data name="VersionNotUnique" xml:space="preserve">
+    <value>Версия не уникальна</value>
+  </data>
+  <data name="VersionNotSelect" xml:space="preserve">
+    <value>Версия не выбрана</value>
+  </data>
+  <data name="ConfigData" xml:space="preserve">
+    <value>Конфигурационные данные</value>
+  </data>
+  <data name="OSType" xml:space="preserve">
+    <value>Тип ОС</value>
+  </data>
+  <data name="ChooseCategory" xml:space="preserve">
+    <value>Пожалуйста, выберите категорию</value>
+  </data>
+  <data name="ChooseOSType" xml:space="preserve">
+    <value>Пожалуйста, выберите тип ОС</value>
+  </data>
+  <data name="ChooseStatus" xml:space="preserve">
+    <value>Пожалуйста, выберите статус</value>
+  </data>
+  <data name="ChooseType" xml:space="preserve">
+    <value>Пожалуйста, выберите тип</value>
+  </data>
+  <data name="ChooseParentParagraph" xml:space="preserve">
+    <value>Пожалуйста, выберите родительский параграф</value>
+  </data>
+  <data name="ChooseProductModule" xml:space="preserve">
+    <value>Пожалуйста, выберите модуль продукта</value>
+  </data>
+  <data name="ChooseProductCategory" xml:space="preserve">
+    <value>Пожалуйста, выберите категорию продукта</value>
+  </data>
+  <data name="ChooseProduct" xml:space="preserve">
+    <value>Пожалуйста, выберите продукт</value>
+  </data>
+  <data name="ChooseVersion" xml:space="preserve">
+    <value>Пожалуйста, выберите версию</value>
+  </data>
+  <data name="ChooseResponsible" xml:space="preserve">
+    <value>Пожалуйста, выберите ответственное лицо</value>
+  </data>
+  <data name="ChooseReproducibility" xml:space="preserve">
+    <value>Пожалуйста, выберите воспроизводимость</value>
+  </data>
+  <data name="ChooseCompany" xml:space="preserve">
+    <value>Пожалуйста, выберите компанию</value>
+  </data>
+  <data name="ChooseCategoryTicket" xml:space="preserve">
+    <value>Пожалуйста, выберите категорию заявки</value>
+  </data>
+  <data name="ChooseAssignedTo" xml:space="preserve">
+    <value>Пожалуйста, выберите назначенное лицо</value>
+  </data>
+  <data name="ChooseParameters" xml:space="preserve">
+    <value>Пожалуйста, выберите параметры</value>
+  </data>
+  <data name="ChooseServer" xml:space="preserve">
+    <value>Пожалуйста, выберите сервер</value>
+  </data>
+  <data name="ChooseUser" xml:space="preserve">
+    <value>Пожалуйста, выберите пользователя</value>
+  </data>
+  <data name="ChooseNavigation" xml:space="preserve">
+    <value>Пожалуйста, выберите навигацию</value>
+  </data>
+  <data name="ChoosePermissionState" xml:space="preserve">
+    <value>Пожалуйста, выберите cостояние разрешения</value>
+  </data>
+  <data name="ChooseCountry" xml:space="preserve">
+    <value>Пожалуйста, выберите страну</value>
+  </data>
+  <data name="CancelURI" xml:space="preserve">
+    <value>Cancel URI</value>
+  </data>
+  <data name="HeaderDeleteRolesGroups" xml:space="preserve">
+    <value>Вы действительно хотите удалить эту группу? Для подтверждения сначала введите "Наименование" группы : </value>
+  </data>
+  <data name="HeaderDeleteNavigationGroups" xml:space="preserve">
+    <value>Вы действительно хотите удалить эту навигацию? Для подтверждения сначала введите "Навигацию" : </value>
+  </data>
+  <data name="HeaderDeleteUserGroups" xml:space="preserve">
+    <value>Вы действительно хотите удалить этого пользователя? Для подтверждения сначала введите "Пользователя" : </value>
+  </data>
+  <data name="HeaderDeleteUnits" xml:space="preserve">
+    <value>Вы действительно хотите удалить этот блок? Для подтверждения сначала введите наименование блока : </value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>Адрес</value>
+  </data>
+  <data name="ModuleSettings" xml:space="preserve">
+    <value>Настройки модуля</value>
+  </data>
+  <data name="EmailPackages" xml:space="preserve">
+    <value>Email пакеты</value>
+  </data>
+  <data name="SMSPackages" xml:space="preserve">
+    <value>SMS пакеты</value>
+  </data>
+  <data name="Generate" xml:space="preserve">
+    <value>Генерировать</value>
+  </data>
+  <data name="HeaderGenerateAPIKey" xml:space="preserve">
+    <value>Вы хотите сгенерировать ключ API для приложения</value>
+  </data>
+  <data name="GeneralSettings" xml:space="preserve">
+    <value>Общие настройки</value>
+  </data>
+  <data name="EmailTestValidation" xml:space="preserve">
+    <value>'Тест электронной почты' должно быть заполнено</value>
+  </data>
+  <data name="EmailTest" xml:space="preserve">
+    <value>Тест электронной почты</value>
+  </data>
+  <data name="Test" xml:space="preserve">
+    <value>Тест</value>
+  </data>
+  <data name="SMSTestValidation" xml:space="preserve">
+    <value>'Тест смс' должно быть заполнено</value>
+  </data>
+  <data name="SMSTest" xml:space="preserve">
+    <value>Тест смс</value>
+  </data>
+  <data name="EmailSent" xml:space="preserve">
+    <value>Письмо было отправлено</value>
+  </data>
+  <data name="SMSSent" xml:space="preserve">
+    <value>СМС отправлено</value>
+  </data>
+  <data name="ChangeStatusApp" xml:space="preserve">
+    <value>Статус приложения обновлен</value>
+  </data>
+  <data name="Reactivate" xml:space="preserve">
+    <value>Реактивировать</value>
+  </data>
+  <data name="HeaderActivateFiscalDevice" xml:space="preserve">
+    <value>Вы хотите активировать фискальное устройство</value>
+  </data>
+  <data name="HeaderDeactivateFiscalDevice" xml:space="preserve">
+    <value>Вы хотите деактивировать фискальное устройство</value>
+  </data>
+  <data name="HeaderReactivateFiscalDevice" xml:space="preserve">
+    <value>Вы хотите реактивировать фискальное устройство</value>
+  </data>
+  <data name="Factory" xml:space="preserve">
+    <value>Серийный номер</value>
+  </data>
+  <data name="NumberSTS" xml:space="preserve">
+    <value>Номер НГС</value>
+  </data>
+  <data name="Model" xml:space="preserve">
+    <value>Модель</value>
+  </data>
+  <data name="Key" xml:space="preserve">
+    <value>Ключ</value>
+  </data>
+  <data name="BusinessType" xml:space="preserve">
+    <value>Тип бизнеса</value>
+  </data>
+  <data name="FiscalDevice" xml:space="preserve">
+    <value>Фискальное устройство</value>
+  </data>
+  <data name="ActivationCode" xml:space="preserve">
+    <value>Код активации</value>
+  </data>
+  <data name="ChooseBusinessType" xml:space="preserve">
+    <value>Пожалуйста, выберите страну</value>
+  </data>
+  <data name="CheckMEV" xml:space="preserve">
+    <value>Проверить в MEV</value>
+  </data>
+  <data name="Reactivated" xml:space="preserve">
+    <value>Реактивирован</value>
+  </data>
+  <data name="Deleted" xml:space="preserve">
+    <value>Удалено</value>
+  </data>
+  <data name="Released" xml:space="preserve">
+    <value>Выпущено</value>
+  </data>
+  <data name="FileMoreRows" xml:space="preserve">
+    <value>В файле было 1000 больше строк</value>
+  </data>
+  <data name="FileNotExcel" xml:space="preserve">
+    <value>Загрузите файл формата ".xlsx"</value>
+  </data>
+  <data name="ValueNull" xml:space="preserve">
+    <value>Значение равно null</value>
+  </data>
+  <data name="Licenses" xml:space="preserve">
+    <value>Лицензии</value>
+  </data>
+  <data name="Assortment" xml:space="preserve">
+    <value>Ассортимент</value>
+  </data>
+  <data name="Banks" xml:space="preserve">
+    <value>Банки</value>
+  </data>
+  <data name="ChooseBank" xml:space="preserve">
+    <value>Пожалуйста, выберите банк</value>
+  </data>
+  <data name="HeaderDeleteBank" xml:space="preserve">
+    <value>Вы действительно хотите удалить этот банк? Для подтверждения сначала введите "Логин" банка : </value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Логин</value>
+  </data>
+  <data name="DeviceName" xml:space="preserve">
+    <value>Имя устройства</value>
+  </data>
+  <data name="SettingsType" xml:space="preserve">
+    <value>Тип настроек</value>
+  </data>
+  <data name="HeaderReleaseDevice" xml:space="preserve">
+    <value>Вы хотите выпустить устройство</value>
+  </data>
+  <data name="Battery" xml:space="preserve">
+    <value>Батарея</value>
+  </data>
+  <data name="LicenseActivated" xml:space="preserve">
+    <value>Лицензия активирована</value>
+  </data>
+  <data name="LastDateUpdate" xml:space="preserve">
+    <value>Дата последнего обновления</value>
+  </data>
+  <data name="Release" xml:space="preserve">
+    <value>Выпустить</value>
+  </data>
+  <data name="Quantity" xml:space="preserve">
+    <value>Количество</value>
+  </data>
+  <data name="HeaderEnableDevice" xml:space="preserve">
+    <value>Вы хотите активировать устройство</value>
+  </data>
+  <data name="HeaderDisableDevice" xml:space="preserve">
+    <value>Вы хотите деактивировать устройство</value>
+  </data>
+  <data name="Setting" xml:space="preserve">
+    <value>Настройка</value>
+  </data>
+  <data name="Departement" xml:space="preserve">
+    <value>Департамент</value>
+  </data>
+  <data name="Discount" xml:space="preserve">
+    <value>Скидка</value>
+  </data>
+  <data name="Adaos" xml:space="preserve">
+    <value>Добавка</value>
+  </data>
+  <data name="PriceModify" xml:space="preserve">
+    <value>Изменить цену</value>
+  </data>
+  <data name="TooltipImportAssortiment1" xml:space="preserve">
+    <value>Формат для файла с ассортиментом:</value>
+  </data>
+  <data name="TooltipImportAssortiment2" xml:space="preserve">
+    <value>ID, PLU, Код, Наименование, Цена, Штрих-код, Код НДС, Группа (для MCR), TME</value>
+  </data>
+  <data name="TooltipImportAssortiment3" xml:space="preserve">
+    <value>Файл должен быть меньше 2 МБ</value>
+  </data>
+  <data name="AssortimentFile" xml:space="preserve">
+    <value>Файл для ассортимента</value>
+  </data>
+  <data name="LicenseListDevices" xml:space="preserve">
+    <value>Список лицензий устройств</value>
+  </data>
+  <data name="DeviceSettings" xml:space="preserve">
+    <value>Настройки устройства</value>
+  </data>
+  <data name="Code" xml:space="preserve">
+    <value>Код</value>
+  </data>
+  <data name="VatPercent" xml:space="preserve">
+    <value>Процент НДС</value>
+  </data>
+  <data name="ProductsOrServices" xml:space="preserve">
+    <value>Продукты или услуги</value>
+  </data>
+  <data name="Invoice" xml:space="preserve">
+    <value>Накладная</value>
+  </data>
+  <data name="Accounting" xml:space="preserve">
+    <value>Бухгалтерия</value>
+  </data>
+  <data name="ErrorBills" xml:space="preserve">
+    <value>Ошибочные чеки</value>
+  </data>
+  <data name="EventViewer" xml:space="preserve">
+    <value>Просмотр событий</value>
+  </data>
+  <data name="LicenseList" xml:space="preserve">
+    <value>Список лицензий</value>
+  </data>
+  <data name="PointOfSalesSettings" xml:space="preserve">
+    <value>Настройки точки продажи</value>
+  </data>
+  <data name="LicenseCode" xml:space="preserve">
+    <value>Код лицензии</value>
+  </data>
+  <data name="ApplicationVersion" xml:space="preserve">
+    <value>Версия приложения</value>
+  </data>
+  <data name="SerialNumber" xml:space="preserve">
+    <value>Серийный номер</value>
+  </data>
+  <data name="OSVersion" xml:space="preserve">
+    <value>Версия ОС</value>
+  </data>
+  <data name="DiagnosticInfoDate" xml:space="preserve">
+    <value>Дата диагностики</value>
+  </data>
+  <data name="DiagnosticInformation" xml:space="preserve">
+    <value>Диагностическая информация</value>
+  </data>
+  <data name="LastAccessDate" xml:space="preserve">
+    <value>Дата последнего доступа</value>
+  </data>
+  <data name="LicenseActivationDate" xml:space="preserve">
+    <value>Дата активации лицензии</value>
+  </data>
+  <data name="PrivateIP" xml:space="preserve">
+    <value>Приватный IP</value>
+  </data>
+  <data name="PublicIP" xml:space="preserve">
+    <value>Публичный IP</value>
+  </data>
+  <data name="SalePointAddress" xml:space="preserve">
+    <value>Адрес точки продажи</value>
+  </data>
+  <data name="Workplace" xml:space="preserve">
+    <value>Рабочее место</value>
+  </data>
+  <data name="HeaderReleaseLicense" xml:space="preserve">
+    <value>Вы хотите выпустить лицензию</value>
+  </data>
+  <data name="HeaderDeleteLicense" xml:space="preserve">
+    <value>Вы действительно хотите удалить эту лицензию? Для подтверждения сначала введите "Код лицензии" : </value>
+  </data>
+  <data name="GenerateKey" xml:space="preserve">
+    <value>Сгенерировать ключ</value>
+  </data>
+  <data name="VersionTransport" xml:space="preserve">
+    <value>Ключ безопасности транспорта данных (версия)</value>
+  </data>
+  <data name="DateTimeTransport" xml:space="preserve">
+    <value>Дата и время транспорта данных</value>
+  </data>
+  <data name="Postfix" xml:space="preserve">
+    <value>Постфикс</value>
+  </data>
+  <data name="UserName" xml:space="preserve">
+    <value>Имя пользователя</value>
+  </data>
+  <data name="AccountReplenishment" xml:space="preserve">
+    <value>Пополнение счета</value>
+  </data>
+  <data name="Gift" xml:space="preserve">
+    <value>Подарок</value>
+  </data>
+  <data name="PaymentType" xml:space="preserve">
+    <value>Способ оплаты</value>
+  </data>
+  <data name="CustomerID" xml:space="preserve">
+    <value>ID Клиента</value>
+  </data>
+  <data name="Signature" xml:space="preserve">
+    <value>Подпись</value>
+  </data>
+  <data name="SaleAreaCode" xml:space="preserve">
+    <value>Код зоны продажи</value>
+  </data>
+  <data name="MerchantCode" xml:space="preserve">
+    <value>Торговый код</value>
+  </data>
+  <data name="RedirectURI" xml:space="preserve">
+    <value>URI для переадресации</value>
+  </data>
+  <data name="Order" xml:space="preserve">
+    <value>Заказ</value>
+  </data>
+  <data name="HeaderGenerateDataTransport" xml:space="preserve">
+    <value>Вы хотите сгенерировать новый ключ безопасности транспорта данных? После генерации нового ключа прошлые транспортные данные будут удалены для приложения</value>
+  </data>
+  <data name="HeaderGenerateLicenseActivationCode" xml:space="preserve">
+    <value>Вы хотите сгенерировать лицензионный код для</value>
+  </data>
+  <data name="RangeStart" xml:space="preserve">
+    <value>Начало диапазона</value>
+  </data>
+  <data name="RangeEnd" xml:space="preserve">
+    <value>Конец диапазона</value>
+  </data>
+  <data name="Current" xml:space="preserve">
+    <value>Текущий</value>
+  </data>
+  <data name="Used" xml:space="preserve">
+    <value>Используемый</value>
+  </data>
+  <data name="Series" xml:space="preserve">
+    <value>Серия</value>
+  </data>
+  <data name="Range" xml:space="preserve">
+    <value>Диапазон</value>
+  </data>
+  <data name="Email_For_Template" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="NoDocumentations" xml:space="preserve">
+    <value>Нет документаций</value>
+  </data>
+  <data name="HeaderFiscalDeviceNotActivated" xml:space="preserve">
+    <value>Для внесения изменений статус фискального устройства должно быть</value>
+  </data>
+  <data name="FiscalMemory" xml:space="preserve">
+    <value>Ф/П</value>
+  </data>
+  <data name="Dashboard" xml:space="preserve">
+    <value>Панель управления</value>
+  </data>
+  <data name="ZPrintTime" xml:space="preserve">
+    <value>Формирование Z-отчета</value>
+  </data>
+  <data name="PrintReport" xml:space="preserve">
+    <value>Печать отчета</value>
+  </data>
+  <data name="PrintIfEmailOrNr" xml:space="preserve">
+    <value>Распечатать, если существует электронная почта или номер</value>
+  </data>
+  <data name="PriceInPackage" xml:space="preserve">
+    <value>Цена в упаковке</value>
+  </data>
+  <data name="Print" xml:space="preserve">
+    <value>Распечатать</value>
+  </data>
+  <data name="ReceiptPrintByPrinter" xml:space="preserve">
+    <value>Распечатать фискальный чек</value>
+  </data>
+  <data name="ReceiptSendBySMS" xml:space="preserve">
+    <value>Отправить фискальный чек через SMS</value>
+  </data>
+  <data name="ReceiptSendByEMAIL" xml:space="preserve">
+    <value>Отправить фискальный чек через Email</value>
+  </data>
+  <data name="ReceiptShowByQR" xml:space="preserve">
+    <value>Показать QR чека</value>
+  </data>
+  <data name="Info" xml:space="preserve">
+    <value>Инфо</value>
+  </data>
+  <data name="HeaderDeleteRange" xml:space="preserve">
+    <value>Вы действительно хотите удалить этот диапазон? Для подтверждения сначала введите "Серия" диапазона : </value>
+  </data>
+  <data name="ConsumptionReceipt" xml:space="preserve">
+    <value>Потребительский чек</value>
+  </data>
+  <data name="MailingList" xml:space="preserve">
+    <value>Список рассылок</value>
+  </data>
+  <data name="SendSMS" xml:space="preserve">
+    <value>Отправить СМС</value>
+  </data>
+  <data name="SendEmail" xml:space="preserve">
+    <value>Отправить E-Mail</value>
+  </data>
+  <data name="TemplateList" xml:space="preserve">
+    <value>Список шаблонов</value>
+  </data>
+  <data name="ContactList" xml:space="preserve">
+    <value>Список контактов</value>
+  </data>
+  <data name="SMS" xml:space="preserve">
+    <value>СМС</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>Итого</value>
+  </data>
+  <data name="InvoiceNumber" xml:space="preserve">
+    <value>Номер накладной</value>
+  </data>
+  <data name="HomePage" xml:space="preserve">
+    <value>Главная</value>
+  </data>
+  <data name="PrintLogo" xml:space="preserve">
+    <value>Распечатать логотип</value>
+  </data>
+  <data name="Notifications" xml:space="preserve">
+    <value>Уведомления</value>
+  </data>
+  <data name="FiscalReports" xml:space="preserve">
+    <value>Отчёты</value>
+  </data>
+  <data name="FiscalTranzactions" xml:space="preserve">
+    <value>Транзакции</value>
+  </data>
+  <data name="FiscalReceipt" xml:space="preserve">
+    <value>Чек</value>
+  </data>
+  <data name="ReceiptSettings" xml:space="preserve">
+    <value>Настройки фискального чека</value>
+  </data>
+  <data name="SelectFile" xml:space="preserve">
+    <value>Выбрать файл</value>
+  </data>
+  <data name="RowStart" xml:space="preserve">
+    <value>Начало строки</value>
+  </data>
+  <data name="RowEnd" xml:space="preserve">
+    <value>Конец строки</value>
+  </data>
+  <data name="Splitter" xml:space="preserve">
+    <value>Разделитель</value>
+  </data>
+  <data name="ElementNameIndex" xml:space="preserve">
+    <value>Индекс имени элемента</value>
+  </data>
+  <data name="ElementPriceIndex" xml:space="preserve">
+    <value>Индекс цены элемента</value>
+  </data>
+  <data name="Generated" xml:space="preserve">
+    <value>Сгенерировано</value>
+  </data>
+  <data name="ReceiptFooter" xml:space="preserve">
+    <value>Нижний колонтитул фискального чека</value>
+  </data>
+  <data name="ErrorReceipt" xml:space="preserve">
+    <value>Ошибка фискального чека</value>
+  </data>
+  <data name="Rewrite" xml:space="preserve">
+    <value>Переписать</value>
+  </data>
+  <data name="DBService" xml:space="preserve">
+    <value>Служба БД</value>
+  </data>
+  <data name="Secret" xml:space="preserve">
+    <value>Секрет</value>
+  </data>
+  <data name="ImagesFolder" xml:space="preserve">
+    <value>Папка изображений</value>
+  </data>
+  <data name="CurrencyCode" xml:space="preserve">
+    <value>Код валюты</value>
+  </data>
+  <data name="StartDate" xml:space="preserve">
+    <value>Дата начала</value>
+  </data>
+  <data name="DateEnd" xml:space="preserve">
+    <value>Дата окончания</value>
+  </data>
+  <data name="Detailed" xml:space="preserve">
+    <value>Детальный</value>
+  </data>
+  <data name="SentToMev" xml:space="preserve">
+    <value>Отправлено в MEV</value>
+  </data>
+  <data name="ResponseFromMev" xml:space="preserve">
+    <value>Ответ от MEV</value>
+  </data>
+  <data name="CodeAlreadyUsedValidation" xml:space="preserve">
+    <value>Этот код уже используется</value>
+  </data>
+  <data name="DeviceID" xml:space="preserve">
+    <value>ID устройства</value>
+  </data>
+  <data name="ProviderID" xml:space="preserve">
+    <value>ID провайдера</value>
+  </data>
+  <data name="HeaderDeleteProdustOrService" xml:space="preserve">
+    <value>Вы хотите удалить продукт или услугу</value>
+  </data>
+  <data name="PosGroups" xml:space="preserve">
+    <value>Pos группы</value>
+  </data>
+  <data name="SMS Preview" xml:space="preserve">
+    <value>Пример текста из SMS</value>
+  </data>
+  <data name="HeaderDeletPos" xml:space="preserve">
+    <value>Вы хотите удалить точку продажи</value>
+  </data>
+  <data name="HeaderDeletPosSetting" xml:space="preserve">
+    <value>Вы хотите удалить настройки точки продажи</value>
+  </data>
+  <data name="MultiplePayment" xml:space="preserve">
+    <value>Частичная оплата</value>
+  </data>
+  <data name="PosGroupName" xml:space="preserve">
+    <value>Название Pos группы</value>
+  </data>
+  <data name="PosGroup" xml:space="preserve">
+    <value>Pos группа</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Поиск...</value>
+  </data>
+  <data name="ReadMore" xml:space="preserve">
+    <value>Читать далее</value>
+  </data>
+  <data name="TokenErrorPleaseReLogin" xml:space="preserve">
+    <value>Управление компанией не удалась , пожалуйста, повторно войдите в систему</value>
+  </data>
+  <data name="AppEvents_" xml:space="preserve">
+    <value>Событие приложения</value>
+  </data>
+  <data name="HeaderDeleteLicensePayment" xml:space="preserve">
+    <value>Вы действительно хотите удалить эту лицензию? Для подтверждения сначала введите "Имя устройства" : </value>
+  </data>
+  <data name="ValidationDeleteLicensePayment" xml:space="preserve">
+    <value>Введённое имя устройства не соответствует имени удаляемого устройства</value>
+  </data>
+  <data name="ValidationDeleteDocumentation" xml:space="preserve">
+    <value>Введённое наименование документации не соответствует наименованию удаляемой документации</value>
+  </data>
+  <data name="HeaderDeleteProdurctOrService" xml:space="preserve">
+    <value>Вы действительно хотите удалить этот продукт или услугу? Для подтверждения сначала введите "Наименование" : </value>
+  </data>
+  <data name="ValidationDeleteProductOrService" xml:space="preserve">
+    <value>Введённое наименование продукта или сервиса не соответствует наименованию удаляемого  продукта или сервиса</value>
+  </data>
+  <data name="ValidationDeleteGroup" xml:space="preserve">
+    <value>Введённое наименование группы не соответствует наименованию удаляемой группы</value>
+  </data>
+  <data name="ValidationDeleteSettingGroup" xml:space="preserve">
+    <value>Введённое наименование настройки группы не соответствует наименованию удаляемой настройки группы</value>
+  </data>
+  <data name="ValidationDeletePointOfSales" xml:space="preserve">
+    <value>Введённое наименование точки продаж не соответствует наименованию удаляемой точки продаж</value>
+  </data>
+  <data name="ValidationDeleteEntity" xml:space="preserve">
+    <value>Введённое наименование сущности не соответствует наименованию удаляемой сущности</value>
+  </data>
+  <data name="ValidationDeleteServiceType" xml:space="preserve">
+    <value>Введённый тип сервиса и не соответствует типу удаляемого сервиса</value>
+  </data>
+  <data name="ValidationDeleteServiceServerName" xml:space="preserve">
+    <value>Введённое имя сервера и не соответствует имени сервера удаляемого сервиса</value>
+  </data>
+  <data name="ValidationDeleteDB" xml:space="preserve">
+    <value>Введённое имя базы данных и не соответствует имени удаляемой базы данных</value>
+  </data>
+  <data name="ValidationDeleteServer" xml:space="preserve">
+    <value>Введённое наименование сервера и не соответствует наименованию удаляемого сервера</value>
+  </data>
+  <data name="ValidationDeleteUser" xml:space="preserve">
+    <value>Введенное имя пользователя не соответствует имени удаляемого пользователя</value>
+  </data>
+  <data name="ValidationDeleteNavigation" xml:space="preserve">
+    <value>Введённая навигация не соответствует удаляемой навигации</value>
+  </data>
+  <data name="ValidationDeletePackage" xml:space="preserve">
+    <value>Введённое наименование не соответствует наименованию удаляемого пакета</value>
+  </data>
+  <data name="CannotDeletePointOfSales" xml:space="preserve">
+    <value>Вы не можете удалить точку продаж</value>
+  </data>
+  <data name="DependenceDeletePointOfSales" xml:space="preserve">
+    <value>Существуют следующие зависимости в настройках точки продаж:</value>
+  </data>
+  <data name="HeaderDeletePos" xml:space="preserve">
+    <value>Вы действительно хотите удалить эту точку продаж? Для подтверждения сначала введите "Наименование" точки продаж : </value>
+  </data>
+  <data name="Partnership" xml:space="preserve">
+    <value>Партнёрство</value>
+  </data>
+  <data name="Partner" xml:space="preserve">
+    <value>Партнёр</value>
+  </data>
+  <data name="CannotDeletePosSetting" xml:space="preserve">
+    <value>Вы не можете удалить эту настройку точки продаж</value>
+  </data>
+  <data name="DependenceDeletePosSetting" xml:space="preserve">
+    <value>Существуют следующие зависимости в лицензиях:</value>
+  </data>
+  <data name="HeaderDeletePosSetting" xml:space="preserve">
+    <value>Вы действительно хотите удалить эту настройку точки продаж? Для подтверждения сначала введите "URI" настройки точки продаж : </value>
+  </data>
+  <data name="ValidationDeletePosSetting" xml:space="preserve">
+    <value>Введённое URI не соответствует URI удаляемой настройки точки продаж</value>
+  </data>
+  <data name="ValidationDeleteLicense" xml:space="preserve">
+    <value>Введённый код лицензии не соответствует коду удаляемой лицензии</value>
+  </data>
+  <data name="ValidationDeleteRange" xml:space="preserve">
+    <value>Введённая серия диапазона не соответствует серии удаляемого диапазона</value>
+  </data>
+  <data name="ValidationDeleteBank" xml:space="preserve">
+    <value>Введённый логин банка не соответствует логину удаляемого банка</value>
+  </data>
+  <data name="HeaderDeletePosGroup" xml:space="preserve">
+    <value>Вы действительно хотите удалить эту Pos группу? Для подтверждения сначала введите "Название Pos группы" : </value>
+  </data>
+  <data name="ValidationDeletePosGroup" xml:space="preserve">
+    <value>Введённое название Pos группы не соответствует названия удаляемой Pos группы</value>
+  </data>
+  <data name="Currency" xml:space="preserve">
+    <value>Валюта</value>
+  </data>
+  <data name="HeaderDeleteBankPayments" xml:space="preserve">
+    <value>Вы действительно хотите удалить этот банк? Для подтверждения сначала введите название банка : </value>
+  </data>
+  <data name="ValidationDeleteBankPayments" xml:space="preserve">
+    <value>Введённое название банка не соответствует названию удаляемого банка</value>
+  </data>
+  <data name="Download" xml:space="preserve">
+    <value>Скачать</value>
+    <value>Управление компанией не удалась , пожалуйста, повторно войдите в систему</value>
+  </data>
+  <data name="PosSettingAlreadyUsedValidation" xml:space="preserve">
+    <value>Эта настройка точки продажи уже используется</value>
+  </data>
+  <data name="DisplayNameValue" xml:space="preserve">
+    <value>Значение отображаемого имени</value>
+  </data>
+  <data name="DisplayName" xml:space="preserve">
+    <value>Отобразить имя</value>
+  </data>
+  <data name="BankSupportNumber" xml:space="preserve">
+    <value>Номер службы поддержки банка</value>
+  </data>
+  <data name="Index" xml:space="preserve">
+    <value>Индекс</value>
+  </data>
+  <data name="Action" xml:space="preserve">
+    <value>Действие</value>
+  </data>
+  <data name="AppVersion" xml:space="preserve">
+    <value>Версия приложения</value>
+  </data>
+  <data name="FilePaths" xml:space="preserve">
+    <value>Пути к файлу</value>
+  </data>
+  <data name="ChangeCountAssortment" xml:space="preserve">
+    <value>Изменить кол-во товара</value>
+  </data>
+  <data name="Clear" xml:space="preserve">
+    <value>Очистить</value>
+  </data>
+  <data name="HeaderDeleteDataTransport" xml:space="preserve">
+    <value>Вы действительно хотите очистить ключ безопасности транспорта данных? Для подтверждения сначала введите "Ключ безопасности транспорта данных (версия)" : </value>
+  </data>
+  <data name="ValidationDeleteDataTransport" xml:space="preserve">
+    <value>Введённый ключ безопасности транспорта данный не соответствует удаляемому ключу</value>
+  </data>
+  <data name="Administrativ_QR" xml:space="preserve">
+    <value>Административный QR</value>
+  </data>
+  <data name="UnlimitedTime" xml:space="preserve">
+    <value>Неограниченное время</value>
+  </data>
+  <data name="ValidMinutes" xml:space="preserve">
+    <value>Действительные минуты</value>
+  </data>
+  <data name="Employees" xml:space="preserve">
+    <value>Сотрудники</value>
+  </data>
+  <data name="Guests" xml:space="preserve">
+    <value>Гости</value>
+  </data>
+  <data name="ValidationDeleteDiagnostic" xml:space="preserve">
+    <value>Введённое наименование блока и не соответствует наименованию удаляемого блока</value>
+  </data>
+  <data name="HeaderLicenseActivate" xml:space="preserve">
+    <value>Вы хотите активировать лицензию</value>
+  </data>
+  <data name="HeaderLicenseDisabled" xml:space="preserve">
+    <value>Вы хотите деактивировать лицензию</value>
+  </data>
+  <data name="HeaderGenerateQrAdmin" xml:space="preserve">
+    <value>Вы действительно хотите сгенерировать новый административный QR</value>
+  </data>
+  <data name="HeaderDeleteEmployer" xml:space="preserve">
+    <value>Вы действительно хотите удалить этого сотрудника? Для подтверждения сначала введите "Номер телефона" сотрудника : </value>
+  </data>
+  <data name="Guest" xml:space="preserve">
+    <value>Гость</value>
+  </data>
+  <data name="HeaderDeleteGuest" xml:space="preserve">
+    <value>Вы действительно хотите удалить этого гостя? Для подтверждения сначала введите "Гость" : </value>
+  </data>
+  <data name="ValidationDeleteEmployer" xml:space="preserve">
+    <value>Введённый номер телефона сотрудника  не соответствует номеру телефона удаляемого сотрудника</value>
+  </data>
+  <data name="ValidationDeleteGuest" xml:space="preserve">
+    <value>Введённое наименование гостя не соответствует наименованию удаляемого гостя</value>
+  </data>
+  <data name="Destination" xml:space="preserve">
+    <value>Место назначения</value>
+  </data>
+  <data name="StartTime" xml:space="preserve">
+    <value>Время начала</value>
+  </data>
+  <data name="EndTime" xml:space="preserve">
+    <value>Время окончания</value>
+  </data>
+  <data name="Director" xml:space="preserve">
+    <value>Директор</value>
+  </data>
+  <data name="HoursWorked" xml:space="preserve">
+    <value>Отработанные часы</value>
+  </data>
+  <data name="BankAlreadyUsedValidation" xml:space="preserve">
+    <value>Этот банк уже настроен</value>
+  </data>
+  <data name="MerchantID" xml:space="preserve">
+    <value>ID Продавца</value>
+  </data>
+  <data name="HeaderEraseFiscalDevice" xml:space="preserve">
+    <value>Вы хотите стереть фискальное устройство</value>
+  </data>
+  <data name="Erase" xml:space="preserve">
+    <value>Стереть</value>
+  </data>
+  <data name="Hours" xml:space="preserve">
+    <value>Часы</value>
+  </data>
+  <data name="Absence" xml:space="preserve">
+    <value>Причина отсутствия</value>
+  </data>
+  <data name="Coefficient" xml:space="preserve">
+    <value>Коэффициент</value>
+  </data>
+  <data name="OperatorFax" xml:space="preserve">
+    <value>Факс оператора</value>
+  </data>
+  <data name="OperatorPhone" xml:space="preserve">
+    <value>Телефон оператора</value>
+  </data>
+  <data name="AuthorizationDate" xml:space="preserve">
+    <value>Дата авторизации</value>
+  </data>
+  <data name="AuthorizationNumber" xml:space="preserve">
+    <value>Номер авторизации</value>
+  </data>
+  <data name="CarModel" xml:space="preserve">
+    <value>Модель автомобиля</value>
+  </data>
+  <data name="CarNumber" xml:space="preserve">
+    <value>Номер автомобиля</value>
+  </data>
+  <data name="LunchMinutes" xml:space="preserve">
+    <value>Минуты на обед</value>
+  </data>
+  <data name="LunchMinutesMessage" xml:space="preserve">
+    <value>Укажите время обеда в минутах, если не укажите и оставите 0, то по умолчанию будет считаться как 60 минут (1час)</value>
+  </data>
+  <data name="ReceiptHeader" xml:space="preserve">
+    <value>Заголовок фискального чека</value>
+  </data>
+  <data name="Accounts" xml:space="preserve">
+    <value>Учетные записи</value>
+  </data>
+  <data name="Amount" xml:space="preserve">
+    <value>Сумма</value>
+  </data>
+  <data name="MaxInvoiceAmount" xml:space="preserve">
+    <value>Максимальная сумма счета</value>
+  </data>
+  <data name="MaxServiceAmount" xml:space="preserve">
+    <value>Максимальная сумма сервиса</value>
+  </data>
+  <data name="Nickname" xml:space="preserve">
+    <value>Никнейм в Telegram</value>
+  </data>
+  <data name="DeviceType" xml:space="preserve">
+    <value>Тип устройства</value>
+  </data>
+  <data name="AddDeviceType" xml:space="preserve">
+    <value>Добавить тип устройства</value>
+  </data>
+  <data name="Contracts" xml:space="preserve">
+    <value>Контракты</value>
+  </data>
+  <data name="Contract_ProjectRegistration" xml:space="preserve">
+    <value>Регистрация проекта</value>
+  </data>
+  <data name="Contract_ExpressExamination" xml:space="preserve">
+    <value>Экспресс обследование</value>
+  </data>
+  <data name="Contract_ListOfImprovements" xml:space="preserve">
+    <value>Список доработок</value>
+  </data>
+  <data name="Contract_CommercialOffer" xml:space="preserve">
+    <value>Коммерческое предложение</value>
+  </data>
+  <data name="Contract_SignedContract" xml:space="preserve">
+    <value>Подписанный договор</value>
+  </data>
+  <data name="Contract_ImplementationPlan" xml:space="preserve">
+    <value>План внедрения</value>
+  </data>
+  <data name="Contract_Preparatory" xml:space="preserve">
+    <value>Список пользователей Server Desk</value>
+  </data>
+  <data name="Contract_FillingOutCustomerCard" xml:space="preserve">
+    <value>Заполнение карты клиента</value>
+  </data>
+  <data name="Contract_EquipmentPreparation" xml:space="preserve">
+    <value>Подготовка оборудования</value>
+  </data>
+  <data name="Contract_TechnicalLaunch" xml:space="preserve">
+    <value>Технический запуск</value>
+  </data>
+  <data name="Contract_CompanyDetails" xml:space="preserve">
+    <value>Данные компании</value>
+  </data>
+  <data name="Contract_AdditionalInformation" xml:space="preserve">
+    <value>Дополнительная информация</value>
+  </data>
+  <data name="Contract_CustomersExistingEquipment" xml:space="preserve">
+    <value>Существующее оборудование клиента</value>
+  </data>
+  <data name="Contract_OptionalEquipment" xml:space="preserve">
+    <value>Дополнительное оборудование</value>
+  </data>
+  <data name="Contract_Comments" xml:space="preserve">
+    <value>Комментарии</value>
+  </data>
+  <data name="Contract_ClientName" xml:space="preserve">
+    <value>ФИО клиента</value>
+  </data>
+  <data name="Contract_CreationDate" xml:space="preserve">
+    <value>Дата создания</value>
+  </data>
+  <data name="Contract_ProjectName" xml:space="preserve">
+    <value>Название проекта</value>
+  </data>
+  <data name="Contract_ResponsibleManager" xml:space="preserve">
+    <value>Ответственный менеджер</value>
+  </data>
+  <data name="Contract_RequisitesCompany" xml:space="preserve">
+    <value>Реквизиты компании</value>
+  </data>
+  <data name="Contract_LegalName" xml:space="preserve">
+    <value>Юридическое название</value>
+  </data>
+  <data name="Contract_ContractNumber" xml:space="preserve">
+    <value>Номер контракта</value>
+  </data>
+  <data name="Contract_ContractDate" xml:space="preserve">
+    <value>Дата контракта</value>
+  </data>
+  <data name="Contract_SoftwareComplex" xml:space="preserve">
+    <value>Программный комплекс</value>
+  </data>
+  <data name="Contract_CommercialName" xml:space="preserve">
+    <value>Коммерческое название</value>
+  </data>
+  <data name="Contract_AutomationPointsCount" xml:space="preserve">
+    <value>Кол-во точек автоматизации</value>
+  </data>
+  <data name="Contract_ActualAddress" xml:space="preserve">
+    <value>Фактический адрес центрального офиса</value>
+  </data>
+  <data name="Contract_ExpectedLaunchDate" xml:space="preserve">
+    <value>Предположительная дата запуска</value>
+  </data>
+  <data name="Contract_ProjectManager" xml:space="preserve">
+    <value>Менеджер проекта</value>
+  </data>
+  <data name="Contract_CompanyWorkDescription" xml:space="preserve">
+    <value>Описание работы компании</value>
+  </data>
+  <data name="Contract_IDNO" xml:space="preserve">
+    <value>IDNO</value>
+  </data>
+  <data name="Contract_TVA" xml:space="preserve">
+    <value>TVA</value>
+  </data>
+  <data name="Contract_IBAN" xml:space="preserve">
+    <value>IBAN</value>
+  </data>
+  <data name="Contract_Bank" xml:space="preserve">
+    <value>Банк</value>
+  </data>
+  <data name="Contract_BankCode" xml:space="preserve">
+    <value>Код Банка</value>
+  </data>
+  <data name="Contract_FullName" xml:space="preserve">
+    <value>ФИО</value>
+  </data>
+  <data name="Contract_JobTitle" xml:space="preserve">
+    <value>Должность</value>
+  </data>
+  <data name="Contract_Telephone" xml:space="preserve">
+    <value>Телефон</value>
+  </data>
+  <data name="Contract_WorkstationCountCasa" xml:space="preserve">
+    <value>Количество рабочих мест кассы</value>
+  </data>
+  <data name="Contract_WorkstationCountBack" xml:space="preserve">
+    <value>Количество рабочих мест BACK</value>
+  </data>
+  <data name="Contract_WarehousesAndDepartments" xml:space="preserve">
+    <value>Наименование складов и подразделений</value>
+  </data>
+  <data name="Contract_Server" xml:space="preserve">
+    <value>Сервер</value>
+  </data>
+  <data name="Contract_TopBusinessProcesses" xml:space="preserve">
+    <value>Основные бизнес-процессы верхнего уровня компании</value>
+  </data>
+  <data name="Contract_AutomationPresent" xml:space="preserve">
+    <value>Автоматизация присутствует</value>
+  </data>
+  <data name="Contract_ElectronicAssortmentAvailable" xml:space="preserve">
+    <value>Наличие ассортимента в электронном виде</value>
+  </data>
+  <data name="Contract_AssortmentGrouped" xml:space="preserve">
+    <value>Ассортимент сгруппирован</value>
+  </data>
+  <data name="Contract_IntegrationWith1C" xml:space="preserve">
+    <value>Интеграция с 1С</value>
+  </data>
+  <data name="Contract_Version1C" xml:space="preserve">
+    <value>Версия 1С</value>
+  </data>
+  <data name="Contract_ServiceCompanyContacts" xml:space="preserve">
+    <value>Контакты компании, осуществляющей обслуживание 1С</value>
+  </data>
+  <data name="Contract_IntegrationWithBankTerminal" xml:space="preserve">
+    <value>Интеграция с банковским терминалом</value>
+  </data>
+  <data name="Contract_BankName" xml:space="preserve">
+    <value>Название банка(ов) которого(ых) используются</value>
+  </data>
+  <data name="Contract_TerminalName" xml:space="preserve">
+    <value>Название терминал(ы) которого(ых) используются</value>
+  </data>
+  <data name="Contract_IntegrationWithScales" xml:space="preserve">
+    <value>Интеграция с весами</value>
+  </data>
+  <data name="Contract_ScaleNameAndModel" xml:space="preserve">
+    <value>Название и модель весов</value>
+  </data>
+  <data name="Contract_IntegrationWithWebsite" xml:space="preserve">
+    <value>Интеграция с сайтом</value>
+  </data>
+  <data name="Contract_OwnTechnicalStaffPresent" xml:space="preserve">
+    <value>Наличие собственного технического персонала</value>
+  </data>
+  <data name="Contract_TechnicalStaffContacts" xml:space="preserve">
+    <value>Контактные данные технического персонала</value>
+  </data>
+  <data name="Contract_IndustrialLaunchConditions" xml:space="preserve">
+    <value>Необходимые условия для запуска в промышленную эксплуатацию</value>
+  </data>
+  <data name="Contract_CashRegisters" xml:space="preserve">
+    <value>Кассовые аппараты</value>
+  </data>
+  <data name="Contract_FiscalPrinters" xml:space="preserve">
+    <value>Фискальные принтеры</value>
+  </data>
+  <data name="Contract_BarcodeScanners" xml:space="preserve">
+    <value>Сканеры штрих-кодов</value>
+  </data>
+  <data name="Contract_POSPrinters" xml:space="preserve">
+    <value>POS принтеры</value>
+  </data>
+  <data name="Contract_POSLabelPrinters" xml:space="preserve">
+    <value>POS принтеры этикеток</value>
+  </data>
+  <data name="Contract_TSD" xml:space="preserve">
+    <value>TSD</value>
+  </data>
+  <data name="Contract_Scales" xml:space="preserve">
+    <value>Весы</value>
+  </data>
+  <data name="Contract_CashDrawers" xml:space="preserve">
+    <value>Денежные ящики</value>
+  </data>
+  <data name="Contract_BuyerMonitors" xml:space="preserve">
+    <value>Мониторы покупателя</value>
+  </data>
+  <data name="Contract_FrontOfficeComputers" xml:space="preserve">
+    <value>Компьютеры Front Office</value>
+  </data>
+  <data name="Contract_BackOfficeComputers" xml:space="preserve">
+    <value>Компьютеры Back Office</value>
+  </data>
+  <data name="Contract_ServerEquipment" xml:space="preserve">
+    <value>Серверное оборудование</value>
+  </data>
+  <data name="Contract_Name" xml:space="preserve">
+    <value>Название</value>
+  </data>
+  <data name="Contract_ModelSpecifications" xml:space="preserve">
+    <value>Модель/характеристики</value>
+  </data>
+  <data name="Contract_Qty" xml:space="preserve">
+    <value>Кол-во</value>
+  </data>
+  <data name="Contract_Workplace" xml:space="preserve">
+    <value>Рабочее место</value>
+  </data>
+  <data name="Contract_ActionOrTaskName" xml:space="preserve">
+    <value>Название действия/этапа</value>
+  </data>
+  <data name="Contract_StartDate" xml:space="preserve">
+    <value>Дата начала</value>
+  </data>
+  <data name="Contract_CompletionDate" xml:space="preserve">
+    <value>Дата завершения</value>
+  </data>
+  <data name="Contract_ResponsiblePerson" xml:space="preserve">
+    <value>Отвественный</value>
+  </data>
+  <data name="Contract_SharePercentage" xml:space="preserve">
+    <value>Доля %</value>
+  </data>
+  <data name="Contract_AchievementCriteria" xml:space="preserve">
+    <value>Критерии достижения</value>
+  </data>
+  <data name="Contract_Further" xml:space="preserve">
+    <value>Далее</value>
+  </data>
+  <data name="Field_not_empty" xml:space="preserve">
+    <value>Данное поле не должно быть пустым</value>
+  </data>
+  <data name="Contract_AddContacts" xml:space="preserve">
+    <value>Добавить контакты</value>
+  </data>
+  <data name="Contract_CustomerEquipment" xml:space="preserve">
+    <value>Оборудование клиента</value>
+  </data>
+  <data name="Contract_AddEquipment" xml:space="preserve">
+    <value>Добавить оборудование</value>
+  </data>
+  <data name="Contract_Acceptable_File_Format" xml:space="preserve">
+    <value>Допустимые формат файлов </value>
+  </data>
+  <data name="Contract_ProgramModuleInstallationAct" xml:space="preserve">
+    <value>Акт установки программного модуля.</value>
+  </data>
+  <data name="Contract_PersonnelTrainingLaw" xml:space="preserve">
+    <value>Акт об обучении персонала.</value>
+  </data>
+  <data name="Contract_ControlSheetLCF17" xml:space="preserve">
+    <value>Контрольный лист LC-F17.</value>
+  </data>
+  <data name="Contract_WorkCompletionAcceptanceAct" xml:space="preserve">
+    <value>Акт сдачи-приема выполненных работ.</value>
+  </data>
+  <data name="Contract_AutomationPoints" xml:space="preserve">
+    <value>Точки автоматизации</value>
+  </data>
+  <data name="Contract_Adress" xml:space="preserve">
+    <value>Адрес</value>
+  </data>
+  <data name="Contract_AddAutomationPoint" xml:space="preserve">
+    <value>Добавить точку автоматизации</value>
+  </data>
+  <data name="Contract_Description" xml:space="preserve">
+    <value>Описание</value>
+  </data>
+  <data name="Contract_Verified" xml:space="preserve">
+    <value>Проверенно</value>
+  </data>
+  <data name="Contract_NameTerminals" xml:space="preserve">
+    <value>Название терминалов</value>
+  </data>
+  <data name="Contract_NameBanks" xml:space="preserve">
+    <value>Название банков</value>
+  </data>
+  <data name="Contract_InvalidDataFormat" xml:space="preserve">
+    <value>Недопустимый формат данных</value>
+  </data>
+  <data name="Contract_FileSizeExceeded" xml:space="preserve">
+    <value>Превышен размер файла</value>
+  </data>
+  <data name="Contract_RevisionType" xml:space="preserve">
+    <value>Тип доработки</value>
+  </data>
+  <data name="Contract_AddRevision" xml:space="preserve">
+    <value>Добавить доработку</value>
+  </data>
+  <data name="Contract_AddStage" xml:space="preserve">
+    <value>Добавить этап</value>
+  </data>
+  <data name="Contract_Priority" xml:space="preserve">
+    <value>Приоритет</value>
+  </data>
+  <data name="Contract_Project_Automation_Type" xml:space="preserve">
+    <value>Тип автоматизации проекта</value>
+  </data>
+  <data name="Contract_ConfirmationDepartureCertificate" xml:space="preserve">
+    <value>Подтверждение акта о выезде</value>
+  </data>
+  <data name="Contract_Departure_Date" xml:space="preserve">
+    <value>Дата выезда</value>
+  </data>
+  <data name="Contract_NeedCheckSpecialist" xml:space="preserve">
+    <value>Нужна проверка тех. специалиста</value>
+  </data>
+  <data name="Contract_Specialist" xml:space="preserve">
+    <value>Специалист</value>
+  </data>
+  <data name="Contract_ErrorListBanks" xml:space="preserve">
+    <value>Ошибка при получение списка банков</value>
+  </data>
+  <data name="Contract_ErrorParsingXML" xml:space="preserve">
+    <value>Ошибка при парсинге XML</value>
+  </data>
+  <data name="SistemPaymentMIA" xml:space="preserve">
+    <value>Платёжная система MIA</value>
+  </data>
+  <data name="CardPayments" xml:space="preserve">
+    <value>Платежи картой</value>
+  </data>
+  <data name="MIAPayments" xml:space="preserve">
+    <value>Платежи MIA</value>
+  </data>
+  <data name="HeaderActivFiscalDevice" xml:space="preserve">
+    <value>Редактирование информации о фискальном устройстве недоступно, пока оно активно. Чтобы внести изменения, сначала деактивируйте устройство, затем выполните необходимые изменения. (Не касается ставок НДС.)</value>
+  </data>
+  <data name="ValidationDeleteQr" xml:space="preserve">
+    <value>Введённое наименование QR-а не соответствует наименованию удаляемого QR-a</value>
+  </data>
+  <data name="HeaderDeleteBankQR" xml:space="preserve">
+    <value>Вы действительно хотите удалить этот QR? Для подтверждения сначала введите наименование QR-a: </value>
+  </data>
+  <data name="ProductsOverview" xml:space="preserve">
+    <value>Обзор продукции</value>
+  </data>
+  <data name="ProductsOverviewHint" xml:space="preserve">
+    <value>Вы можете удерживать клавишу Shift и нажимать на заголовки таблиц, чтобы группировать различные фильтры</value>
+  </data>
+  <data name="DependenceDeleteBank" xml:space="preserve">
+    <value>Вы не можете удалить данный банк, так как существуют зависимости в </value>
+  </data>
+  <data name="AmountOrAssortmentListError" xml:space="preserve">
+    <value>Сумма и ассортимент не могут быть заполнены одновременно</value>
+  </data>
+  <data name="Note" xml:space="preserve">
+    <value>Примечание</value>
+  </data>
+  <data name="MercantBankSettingsID" xml:space="preserve">
+    <value>Идентификатор настроек торгового банка</value>
+  </data>
+  <data name="ConfirmationDeleteSalesDepartment" xml:space="preserve">
+    <value>Вы действительно хотите удалить точку продаж? Для подтверждения введите "ID" записи: </value>
+  </data>
+  <data name="ConfirmationResetSalesDepartment" xml:space="preserve">
+    <value>Вы действительно хотите обновить лицензию точки продаж? Для подтверждения введите 'ID' записи: </value>
+  </data>
+  <data name="Renew_license" xml:space="preserve">
+    <value>Обновить лицензию</value>
+  </data>
+  <data name="SistemPaymentSmart" xml:space="preserve">
+    <value>Платёжная система Smart</value>
+  </data>
+  <data name="SelectPointOfSales" xml:space="preserve">
+    <value>Выберите точку продажи</value>
+  </data>
+  <data name="NoDataForPeriodMessage" xml:space="preserve">
+    <value>За данный период с {0} по {1} нет данных.</value>
+  </data>
+  <data name="YouMustSelectLicense" xml:space="preserve">
+    <value>Необходимо выбрать лицензию.</value>
+  </data>
+  <data name="EmployeeWorkingHours" xml:space="preserve">
+    <value>Рабочее время сотрудника</value>
+  </data>
+  <data name="FileNameEmployeeWorkingHours" xml:space="preserve">
+    <value>Рабочее время сотрудников c {0} по {1}.xlsx</value>
+  </data>
+  <data name="CompanyForUpdatePlaceholder" xml:space="preserve">
+    <value>Пожалуйста, выберите дополнительные компании</value>
+  </data>
+  <data name="CompanyForUpdate" xml:space="preserve">
+    <value>Дополнительные компании</value>
+  </data>
+  <data name="NotSpecified" xml:space="preserve">
+    <value>Не указано</value>
+  </data>
+  <data name="LongZReport" xml:space="preserve">
+    <value>Подробный чек</value>
+  </data>
+  <data name="MCR_SMSService" xml:space="preserve">
+    <value>Отправить через SMS</value>
+  </data>
+  <data name="Terminal" xml:space="preserve">
+    <value>Терминал</value>
+  </data>
+  <data name="AcceptorID" xml:space="preserve">
+    <value>Акцептор ID</value>
+  </data>
+  <data name="TerminalID" xml:space="preserve">
+    <value>Терминал ID</value>
+  </data>
+  <data name="WantReactivateTerminal" xml:space="preserve">
+    <value>Вы действительно хотите реактивировать терминал:</value>
+  </data>
+  <data name="ServiceProviderID" xml:space="preserve">
+    <value>ID поставщика услуг</value>
+  </data>
+  <data name="Create_Attach" xml:space="preserve">
+    <value>Создать / Привязать</value>
+  </data>
+  <data name="VATHistory" xml:space="preserve">
+    <value>История изменений НДС</value>
+  </data>
+  <data name="CompanyNotActive" xml:space="preserve">
+    <value>Компания не активирована</value>
+  </data>
+  <data name="TaxiTariff" xml:space="preserve">
+    <value>Тариф такси</value>
+  </data>
+  <data name="MandatoryContract" xml:space="preserve">
+    <value>Обязательный контракт</value>
+  </data>
+  <data name="Manager" xml:space="preserve">
+    <value>Менеджер</value>
+  </data>
+  <data name="ChooseApplication" xml:space="preserve">
+    <value>Пожалуйста, выберите приложение</value>
+  </data>
+  <data name="NumberContract" xml:space="preserve">
+    <value>Номер контракта</value>
+  </data>
+  <data name="DailyReportSchedule" xml:space="preserve">
+    <value>Расписание Z-отчета</value>
+  </data>
+  <data name="DeviceModel" xml:space="preserve">
+    <value>Модель устройства</value>
+  </data>
+  <data name="IpFormatValidation" xml:space="preserve">
+    <value>Некорректный формат IPv4-адреса. Примеры: 10.10.10.40; 192.168.5.5; 145.78.8.201</value>
+  </data>
+  <data name="OffOnCheckboxReport" xml:space="preserve">
+    <value>Выкл по дате / Вкл по номеру</value>
+  </data>
+  <data name="GenerateByDate" xml:space="preserve">
+    <value>Сформировать по дате</value>
+  </data>
+  <data name="GenerateByNumber" xml:space="preserve">
+    <value>Сформировать по номерам</value>
+  </data>
+  <data name="TransactionDKV" xml:space="preserve">
+    <value>Транзакции DKV</value>
+  </data>
+  <data name="Connect" xml:space="preserve">
+    <value>Подключиться</value>
+  </data>
+  <data name="HeaderCompanyIDNOInfo" xml:space="preserve">
+    <value>Пожалуйста, введите IDNO компании, чтобы загрузить основные данные с e-Factura. Если данные не найдены, вы сможете ввести их вручную.</value>
+  </data>
+  <data name="HeaderClearVATRatesFiscalDevice" xml:space="preserve">
+    <value>Вы действительно хотите очистить данные о настройках НДС у фискального устройства</value>
+  </data>
+  <data name="MessageMergeVATSettingCompany" xml:space="preserve">
+    <value>Вы действительно хотите объединить настройки НДС с глобальными настройками?</value>
+  </data>
+  <data name="MessageMergeVATSettingDevice" xml:space="preserve">
+    <value>Вы действительно хотите объединить настройки НДС с настройками НДС компании?</value>
+  </data>
+  <data name="NoteMergeVATSettingDevice" xml:space="preserve">
+    <value>Примечание: если настройки НДС компании не заполнены, объединение произойдёт с глобальными настройками</value>
+  </data>
+  <data name="NoteFiscalWebSettingDevice" xml:space="preserve">
+    <value>Примечание: После реактивации логин и пароль повторно узнать невозможно</value>
+  </data>
+  <data name="MessageFiscalWebSettingDevice" xml:space="preserve">
+    <value>Скопируйте логин и пароль для авторизации на Fiscal Web</value>
+  </data>
+  <data name="PriceList" xml:space="preserve">
+    <value>Прейскурант</value>
+  </data>
+  <data name="PriceListNotExist" xml:space="preserve">
+    <value>Нет записей с прейскурантами</value>
+  </data>
+  <data name="UpdatedPriceList" xml:space="preserve">
+    <value>Обновлённый прейскурантами</value>
+  </data>
+</root>
