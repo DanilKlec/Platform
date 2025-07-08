@@ -31,6 +31,8 @@
 Тебе не нужно создавать профили вручную:
 Если ты назвал DTO как ProductDto, ProductListDto, ProductFilterDto — маппинг произойдёт сам благодаря рефлексии и AutoMapperProfileGenerator.
 
+builder.Services.AddCoreInfrastructure(builder.Configuration);
+
 ## 🧩 Структура и архитектура:
 Entity: базовые поля, логическое удаление
 
@@ -52,3 +54,5 @@ services.AddDbContext<AppDbContext>(...);
 services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 services.AddScoped<IDataQueryService, DataQueryService>();
 services.AddAutoMapper(typeof(AutoMapperProfileGenerator));
+// Регистрируем все сервисы ядра
+builder.Services.AddCoreInfrastructure(builder.Configuration);
