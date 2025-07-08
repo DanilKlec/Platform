@@ -1,6 +1,6 @@
 ﻿namespace Platform.Domain;
 
-public abstract class EntityBase<TKey>
+public abstract class EntityBaseDomain<TKey>
 {
     public TKey Id { get; set; }
     public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
@@ -8,4 +8,4 @@ public abstract class EntityBase<TKey>
     public bool IsDeleted { get; set; } = false;
 }
 
-public abstract class Entity : EntityBase<int> { }
+public abstract class EntityDomain : EntityBaseDomain<int> { }

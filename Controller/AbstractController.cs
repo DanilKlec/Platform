@@ -12,10 +12,10 @@ namespace Platform.Controller;
 
 [ApiController]
 public abstract class AbstractController<TEntity, TDto, TListDto, TFilterDto> : BaseController<TEntity, TDto, TListDto, TFilterDto>
-    where TEntity : Entity
-    where TDto : DtoBase
-    where TListDto : ListDtoBase
-    where TFilterDto : FilterDtoBase
+    where TEntity : EntityDomain
+    where TDto : EntityDto
+    where TListDto : EntityListDto
+    where TFilterDto : EntityFilterDto
 {
     protected AbstractController(IServiceProvider provider) : base(provider.GetRequiredService<IRepository<TEntity>>(), provider.GetRequiredService<IMapper>(), provider.GetRequiredService<IDataQueryService>()) { }
 

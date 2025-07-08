@@ -11,10 +11,10 @@ namespace Platform.Controller;
 [ApiController]
 [Route("api/[controller]")]
 public abstract class BaseController<TEntity, TDto, TListDto, TFilterDto> : ControllerBase
-    where TEntity : Entity
-    where TDto : DtoBase
-    where TListDto : ListDtoBase
-    where TFilterDto : FilterDtoBase
+    where TEntity : EntityDomain
+    where TDto : EntityDto
+    where TListDto : EntityListDto
+    where TFilterDto : EntityFilterDto
 {
     protected readonly IRepository<TEntity> _repo;
     protected readonly IMapper _mapper;

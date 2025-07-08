@@ -11,14 +11,14 @@ public class AutoMapperProfileGenerator : Profile
     {
         var assembly = Assembly.GetExecutingAssembly();
         var dtoTypes = assembly.GetTypes()
-            .Where(t => t.IsClass && !t.IsAbstract && typeof(DtoBase).IsAssignableFrom(t))
+            .Where(t => t.IsClass && !t.IsAbstract && typeof(EntityDto).IsAssignableFrom(t))
             .ToList();
 
         foreach (var dtoType in dtoTypes)
         {
             var entityName = dtoType.Name.Replace("Dto", "");
             var entityType = assembly.GetTypes()
-                .FirstOrDefault(t => t.Name == entityName && typeof(Entity).IsAssignableFrom(t));
+                .FirstOrDefault(t => t.Name == entityName && typeof(EntityDomain).IsAssignableFrom(t));
 
             if (entityType != null)
             {

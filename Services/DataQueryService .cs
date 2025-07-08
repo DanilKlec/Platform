@@ -12,7 +12,7 @@ public class DataQueryService : IDataQueryService
         _context = context;
     }
 
-    public IQueryable<T> Query<T>() where T : Entity
+    public IQueryable<T> Query<T>() where T : EntityDomain
     {
         return _context.Set<T>().AsQueryable();
     }

@@ -3,7 +3,7 @@ using Platform.Repository;
 
 namespace Platform.Services;
 
-public class BaseService<TEntity> : IService<TEntity> where TEntity : Entity
+public class BaseService<TEntity> : IService<TEntity> where TEntity : EntityDomain
 {
     protected readonly IRepository<TEntity> _repository;
 

@@ -12,14 +12,14 @@ public class AppDbContext : DbContext
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         var entityTypes = Assembly.GetExecutingAssembly().GetTypes()
-            .Where(t => t.IsClass && !t.IsAbstract && typeof(Entity).IsAssignableFrom(t));
+            .Where(t => t.IsClass && !t.IsAbstract && typeof(EntityDomain).IsAssignableFrom(t));
 
         foreach (var type in entityTypes)
         {
             modelBuilder.Entity(type);
             modelBuilder.Entity(type).HasQueryFilter(Expression.Lambda(
                 Expression.Equal(
-                    Expression.Property(Expression.Parameter(type, "e"), nameof(Entity.IsDeleted)),
+                    Expression.Property(Expression.Parameter(type, "e"), nameof(EntityDomain.IsDeleted)),
                     Expression.Constant(false)
                 ),
                 Expression.Parameter(type, "e")

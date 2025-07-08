@@ -2,7 +2,7 @@
 
 namespace Platform.Services;
 
-public interface IService<TEntity> where TEntity : Entity
+public interface IService<TEntity> where TEntity : EntityDomain
 {
     Task<TEntity?> GetEntityAsync(int id);
     Task<IEnumerable<TEntity>> GetEntitiesAsync(bool includeDeleted = false);

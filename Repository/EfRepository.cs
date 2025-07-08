@@ -5,7 +5,7 @@ using System.Linq.Expressions;
 
 namespace Platform.Repository;
 
-public class Repository<TEntity> : IRepository<TEntity> where TEntity : Entity
+public class Repository<TEntity> : IRepository<TEntity> where TEntity : EntityDomain
 {
     private readonly AppDbContext _context;
 

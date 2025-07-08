@@ -49,7 +49,7 @@ public static class ServiceCollectionExtensions
 
         public static AppDbContext Db => Provider!.GetRequiredService<AppDbContext>();
 
-        public static IQueryable<TEntity> Query<TEntity>() where TEntity : Entity =>
+        public static IQueryable<TEntity> Query<TEntity>() where TEntity : EntityDomain =>
             Db.Set<TEntity>().AsQueryable();
     }
 }
