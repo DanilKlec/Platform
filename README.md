@@ -33,20 +33,20 @@ services.AddScoped<IDataQueryService, DataQueryService>();
 
 Создать контроллер:
 
-public class ProductsController : BaseController<Product, ProductDto, ProductListDto, ProductFilterDto>
+```public class ProductsController : BaseController<Product, ProductDto, ProductListDto, ProductFilterDto>
 {
     public ProductsController(IRepository<Product> repo, IMapper mapper, IDataQueryService queryService)
         : base(repo, mapper, queryService)
     {
     }
-}
+}```
 
 В Program.cs зарегистрировать сервисы и контекст:
 
-services.AddDbContext<AppDbContext>(options => /* ... */);
+```services.AddDbContext<AppDbContext>(options => /* ... */);
 services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 services.AddScoped<IDataQueryService, DataQueryService>();
-services.AddAutoMapper(typeof(AutoMapperProfileGenerator));
+services.AddAutoMapper(typeof(AutoMapperProfileGenerator));```
 
 # Итог
 
