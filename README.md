@@ -43,6 +43,9 @@ BaseController: поддержка фильтрации, сортировки, �
 AutoMapper: автоматическая конфигурация
 
 LINQ: доступ через Query<T>() глобально или через IDataQueryService
+      Регистрация Qury:
+       ```csharp
+      services.AddScoped<IDataQueryService, DataQueryService>();```
 
 ## 📦 Установка и DI:
 ```csharp
