@@ -19,7 +19,7 @@
            : base(repo, mapper, queryService) { }
    }
    
-## ✅ Пример запроса к базе:```csharp
+## ✅ Пример запроса к базе:
     var items = await Query<Product>()
     .Where(p => p.Price > 100)
     .OrderByDescending(p => p.CreatedAt)
